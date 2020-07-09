@@ -1,0 +1,111 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='WolframDesktop 12.1' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       161,          7]
+NotebookDataLength[      3342,        103]
+NotebookOptionsPosition[      2493,         79]
+NotebookOutlinePosition[      2921,         96]
+CellTagsIndexPosition[      2878,         93]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell["\<\
+If a robot has more degrees of freedom than the end effector, there are \
+infinitely many solvations.
+\
+\>", "Text",
+ CellChangeTimes->{{3.8027701517049675`*^9, 3.802770185049506*^9}, {
+  3.802770236417748*^9, 
+  3.8027702716381693`*^9}},ExpressionUUID->"ac374626-6d74-4392-a802-\
+a7ccbb0e85c4"],
+
+Cell[CellGroupData[{
+
+Cell["Kinematic Analysis", "Subsection",
+ CellChangeTimes->{{3.8027743528444877`*^9, 
+  3.802774373468588*^9}},ExpressionUUID->"bd2e856d-68bb-4638-9606-\
+6b34f0b5a80a"],
+
+Cell["\<\
+*Either forward kinematics to determine the end effector position from the \
+inputs
+*or inverse kinematics to determine the required inputs for a prescribed end \
+effector position
+*Kinematic equations can be solved with a gradient based optimizer. There are \
+multiple solutions if the robot has more degrees of freedom (n_links) than \
+the the end effector (2 in the 2D  Case) .
+*Each joint is simply a constraint that removes certain degrees of freedom \
+from a link
+*We are dealing with a parallel mechanism as opposed to a serial mechanism (\
+\>", "Text",
+ CellChangeTimes->{{3.802774380692111*^9, 3.8027744634289064`*^9}, {
+  3.802774506148196*^9, 3.802774576435999*^9}, {3.802774623507263*^9, 
+  3.802774781119969*^9}, {3.8027754244750967`*^9, 
+  3.8027754494374895`*^9}},ExpressionUUID->"90e1470d-e8c8-432b-917c-\
+04bf187f7829"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["\<\
+
+Optimisation problem\
+\>", "Subsection",
+ CellChangeTimes->{{3.8027759986138525`*^9, 
+  3.802776020313848*^9}},ExpressionUUID->"30b5c55e-207e-47fe-b8ae-\
+438742d2459e"],
+
+Cell["\<\
+*Satisfy kinematic constraints
+*Prevent collisions 
+*Satisfy desired end effector state
+*Workspace constraints
+*Desirable transition between states\
+\>", "Text",
+ InitializationCell->True,
+ CellChangeTimes->{{3.8027760298175917`*^9, 3.80277615069862*^9}, 
+   3.8027822554230566`*^9},ExpressionUUID->"76f163fe-4a3e-4dc4-aca1-\
+f626d47cdb35"]
+}, Open  ]]
+},
+WindowSize->{1904, 997},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+Magnification:>2.6 Inherited,
+FrontEndVersion->"12.1 for Microsoft Windows (64-bit) (March 20, 2020)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"4691418f-eaad-4d38-ac29-bc5408c4774f"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[561, 20, 305, 8, 145, "Text",ExpressionUUID->"ac374626-6d74-4392-a802-a7ccbb0e85c4"],
+Cell[CellGroupData[{
+Cell[891, 32, 168, 3, 138, "Subsection",ExpressionUUID->"bd2e856d-68bb-4638-9606-6b34f0b5a80a"],
+Cell[1062, 37, 846, 16, 372, "Text",ExpressionUUID->"90e1470d-e8c8-432b-917c-04bf187f7829"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[1945, 58, 179, 6, 206, "Subsection",ExpressionUUID->"30b5c55e-207e-47fe-b8ae-438742d2459e"],
+Cell[2127, 66, 350, 10, 316, "Text",ExpressionUUID->"76f163fe-4a3e-4dc4-aca1-f626d47cdb35",
+ InitializationCell->True]
+}, Open  ]]
+}
+]
+*)
+

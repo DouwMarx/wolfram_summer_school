@@ -1,0 +1,53 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='WolframDesktop 12.1' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       161,          7]
+NotebookDataLength[      1311,         45]
+NotebookOptionsPosition[       967,         31]
+NotebookOutlinePosition[      1365,         47]
+CellTagsIndexPosition[      1322,         44]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell["\<\
+Notice that it could be that each individual element would not be strong \
+enough to support the weight and that the power of actuators would not scale \
+great
+Problem of high current draw at the base\
+\>", "Text",
+ CellChangeTimes->{{3.802717267642792*^9, 3.80271728892327*^9}, {
+  3.8027173382591543`*^9, 
+  3.8027173730184393`*^9}},ExpressionUUID->"2e5dd391-ec99-4b11-90e2-\
+44e651959bc4"]
+},
+WindowSize->{1904, 997},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+FrontEndVersion->"12.1 for Microsoft Windows (64-bit) (March 20, 2020)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"e6b13670-20f5-4e7b-9ad5-e4958c8ae4ca"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[561, 20, 402, 9, 56, "Text",ExpressionUUID->"2e5dd391-ec99-4b11-90e2-44e651959bc4"]
+}
+]
+*)
+

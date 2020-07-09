@@ -1,0 +1,732 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='WolframDesktop 12.1' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       161,          7]
+NotebookDataLength[     29831,        724]
+NotebookOptionsPosition[     24569,        630]
+NotebookOutlinePosition[     24997,        647]
+CellTagsIndexPosition[     24954,        644]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["Possible approach for general robotics", "Title",
+ CellChangeTimes->{{3.802610175073*^9, 
+  3.802610180807882*^9}},ExpressionUUID->"e59264fe-7684-4024-abc1-\
+c744eec9e44c"],
+
+Cell["Choose a type of actuator/ module", "Subtitle",
+ CellChangeTimes->{{3.8026101950793777`*^9, 3.8026102251121707`*^9}, {
+  3.8026102587454505`*^9, 3.802610269743292*^9}, {3.8026105059117956`*^9, 
+  3.802610513456154*^9}, {3.802610631423332*^9, 
+  3.802610635695264*^9}},ExpressionUUID->"4533fdd9-d5a4-4697-9c0a-\
+608a32fa5ef2"],
+
+Cell[CellGroupData[{
+
+Cell["Linear Actuator", "Item",
+ CellChangeTimes->{{3.8032358979621143`*^9, 
+  3.803235903381796*^9}},ExpressionUUID->"bb2f270b-4d12-4f1b-8261-\
+b47a6e28b832"],
+
+Cell["Rotating Actuator ", "Item",
+ CellChangeTimes->{{3.8032358979621143`*^9, 
+  3.8032359122209578`*^9}},ExpressionUUID->"4576a2ce-d1a1-44b0-b208-\
+26c55619982a"],
+
+Cell["Choose how the modules interconnect", "Item",
+ CellChangeTimes->{{3.8032358979621143`*^9, 3.803235922725037*^9}, {
+  3.8032360027334957`*^9, 
+  3.803236009081251*^9}},ExpressionUUID->"a5ccbd60-918a-483f-bb65-\
+5ded48764f50"],
+
+Cell[CellGroupData[{
+
+Cell["Free degrees of freedom at joints", "Subitem",
+ CellChangeTimes->{{3.8032358979621143`*^9, 
+  3.803235961469731*^9}},ExpressionUUID->"fb325f7c-fe19-49dd-bce2-\
+3b11b3746104"],
+
+Cell["\<\
+How modules are joined and allowable number of modules per joint \
+\>", "Subitem",
+ CellChangeTimes->{{3.8032358979621143`*^9, 3.8032359723969193`*^9}, {
+  3.803236027236802*^9, 
+  3.8032360364032555`*^9}},ExpressionUUID->"9deef31f-b4a4-4d1c-8d46-\
+100706432ac4"]
+}, Open  ]],
+
+Cell["Choose the allowable module states", "Item",
+ CellChangeTimes->{{3.8032358979621143`*^9, 3.8032359723969193`*^9}, {
+  3.803236027236802*^9, 
+  3.8032360875416746`*^9}},ExpressionUUID->"d747e86e-9888-4cf6-bba8-\
+49b8c789da29"],
+
+Cell[CellGroupData[{
+
+Cell["Boolean.  For linear actuator {long,short}", "Subitem",
+ CellChangeTimes->{{3.8032358979621143`*^9, 3.8032359723969193`*^9}, {
+  3.803236027236802*^9, 3.803236059050642*^9}, {3.8032360896375737`*^9, 
+  3.8032361895192075`*^9}},ExpressionUUID->"2adcfa25-3980-403c-bf08-\
+435eb79bc5de"],
+
+Cell["More than 2 states For rotating actuator {0, 30\[Degree] ,60\[Degree], \
+90\[Degree]}", "Subitem",
+ CellChangeTimes->{{3.8032358979621143`*^9, 3.8032359723969193`*^9}, {
+  3.803236027236802*^9, 3.803236059050642*^9}, {3.8032360896375737`*^9, 
+  3.8032361414375257`*^9}, {3.803236194120549*^9, 
+  3.8032363147732377`*^9}},ExpressionUUID->"b169b8a6-e783-403b-bfa3-\
+7865fe294e3f"],
+
+Cell["Continuous \[LineSeparator]", "Subitem",
+ CellChangeTimes->{{3.8032358979621143`*^9, 3.8032359723969193`*^9}, {
+  3.803236027236802*^9, 3.803236059050642*^9}, {3.8032360896375737`*^9, 
+  3.8032361414375257`*^9}, {3.803236194120549*^9, 
+  3.8032363174426146`*^9}},ExpressionUUID->"b04962b8-c754-4f8c-8630-\
+101714e6ba5d"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Engineer (or generate) a lattice of interconnected modules ", "Subtitle",
+ CellChangeTimes->{{3.8026105264471607`*^9, 3.8026106100481396`*^9}, {
+  3.802610685775632*^9, 3.8026106934632215`*^9}, {3.8026111581666713`*^9, 
+  3.802611160430004*^9}},ExpressionUUID->"50bc26b6-73ba-4f77-9b5f-\
+a35b5897ab8a"],
+
+Cell[CellGroupData[{
+
+Cell["\<\
+A certain lattice design should be appropriate for a certain application (3D \
+printer vs. pick and place robot)\
+\>", "Item",
+ CellChangeTimes->{{3.8032364154186745`*^9, 
+  3.8032365349176183`*^9}},ExpressionUUID->"4891e180-55bf-4fbc-b7ae-\
+3faf66f969cb"],
+
+Cell["The lattice structure could be time dependent", "Item",
+ CellChangeTimes->{{3.8032364154186745`*^9, 3.803236559411502*^9}, {
+  3.803236698168561*^9, 3.8032367000006633`*^9}, {3.8032374776348567`*^9, 
+  3.803237477635854*^9}},ExpressionUUID->"447ae0a2-a8c3-4ed4-ac94-\
+f883824dac02"],
+
+Cell["Lattice design considerations", "Item",
+ CellChangeTimes->{{3.8032364154186745`*^9, 3.803236559411502*^9}, {
+  3.803236698168561*^9, 3.8032367000006633`*^9}, {3.8032374889674172`*^9, 
+  3.8032374979230003`*^9}},ExpressionUUID->"2eed4166-2c21-47a8-afaf-\
+3b5512bb3f6c"],
+
+Cell[CellGroupData[{
+
+Cell["The robot should be rigid (Constrain all degrees of freedom)", "Subitem",
+ CellChangeTimes->{{3.8032364154186745`*^9, 3.803236559411502*^9}, {
+  3.803236698168561*^9, 3.8032367000006633`*^9}, {3.8032374889674172`*^9, 
+  3.8032375460614195`*^9}},ExpressionUUID->"24c5c900-a7dd-4157-9b8d-\
+8f56b7895128"],
+
+Cell["The number of modules should be as little as possible", "Subitem",
+ CellChangeTimes->{{3.8032364154186745`*^9, 3.803236559411502*^9}, {
+  3.803236698168561*^9, 3.8032367000006633`*^9}, {3.8032374889674172`*^9, 
+  3.8032375462828274`*^9}, {3.80323758313108*^9, 
+  3.8032375831330433`*^9}},ExpressionUUID->"b97d37e8-432c-45d6-8d6e-\
+4cff9e616814"],
+
+Cell["\<\
+Decide if redundant modules are allowed. Additional modules that are not \
+required to make the robot stiff.\
+\>", "Subitem",
+ CellChangeTimes->{{3.8032364154186745`*^9, 3.803236559411502*^9}, {
+  3.803236698168561*^9, 3.8032367000006633`*^9}, {3.8032374889674172`*^9, 
+  3.8032375462828274`*^9}, {3.8032375835369864`*^9, 
+  3.803237643807358*^9}},ExpressionUUID->"232d338b-07c0-4dae-a57c-\
+48cb36d6783c"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["\<\
+
+Solve for the module states that would lead to your desired motion\
+\>", "Subtitle",
+ CellChangeTimes->{{3.802621009979268*^9, 3.8026210155078826`*^9}, {
+   3.8026222759307137`*^9, 3.802622344305694*^9}, {3.8026223821705008`*^9, 
+   3.802622392281598*^9}, 3.8026230471447763`*^9, {3.8032367021917734`*^9, 
+   3.803236722256569*^9}},ExpressionUUID->"252406b5-b41b-4cf4-9c73-\
+acbb99ec4523"],
+
+Cell[CellGroupData[{
+
+Cell["Consider constraints", "Item",
+ CellChangeTimes->{{3.803236736849802*^9, 3.803236761990093*^9}, {
+  3.8032374236065073`*^9, 
+  3.8032374371253977`*^9}},ExpressionUUID->"cdcef412-df90-4c17-accb-\
+7e490d9a1373"],
+
+Cell[CellGroupData[{
+
+Cell["\<\
+Certain parts of the robot should be moved in the way that we want to move it \
+in a certain region (workspace)\
+\>", "Subitem",
+ CellChangeTimes->{{3.803236736849802*^9, 3.803236761990093*^9}, {
+   3.8032374236065073`*^9, 3.803237463279611*^9}, 3.803237504953247*^9, {
+   3.803237551007289*^9, 3.803237581312911*^9}, {3.803237667999301*^9, 
+   3.803237735262185*^9}},ExpressionUUID->"12615596-ce0c-4e4f-93e4-\
+047278d0c251"],
+
+Cell["\<\
+The stresses on the components/ required actuation force should be as small \
+as possible\
+\>", "Subitem",
+ CellChangeTimes->{{3.803236736849802*^9, 3.803236761990093*^9}, {
+   3.8032374236065073`*^9, 3.803237463279611*^9}, 3.803237504953247*^9, {
+   3.803237551007289*^9, 3.803237581312911*^9}, {3.803237667999301*^9, 
+   3.8032377408439713`*^9}},ExpressionUUID->"813abbf2-fffe-466d-99b8-\
+c1e4023f759d"],
+
+Cell["The components should not exceed max and min state travel. ", "Subitem",
+ CellChangeTimes->{{3.803236736849802*^9, 3.803236761990093*^9}, {
+   3.8032374236065073`*^9, 3.803237463279611*^9}, 3.803237504953247*^9, {
+   3.803237551007289*^9, 3.803237581312911*^9}, {3.803237667999301*^9, 
+   3.8032377697384925`*^9}},ExpressionUUID->"2d536b11-da48-43b5-93c8-\
+5be1d2b560bc"],
+
+Cell["There should be no local collisions of modules", "Subitem",
+ CellChangeTimes->{{3.803236736849802*^9, 3.803236761990093*^9}, {
+   3.8032374236065073`*^9, 3.803237463279611*^9}, 3.803237504953247*^9, {
+   3.803237551007289*^9, 3.803237581312911*^9}, {3.803237667999301*^9, 
+   3.8032377907624407`*^9}, {3.8032378358153243`*^9, 
+   3.803237848535519*^9}},ExpressionUUID->"a88ec2a6-3886-43b8-9680-\
+ae6647f120d7"],
+
+Cell["\<\
+There should be no collisions between the robot and it environment or itself.\
+\>", "Subitem",
+ CellChangeTimes->{{3.803236736849802*^9, 3.803236761990093*^9}, {
+   3.8032374236065073`*^9, 3.803237463279611*^9}, 3.803237504953247*^9, {
+   3.803237551007289*^9, 3.803237581312911*^9}, {3.803237667999301*^9, 
+   3.803237857716216*^9}},ExpressionUUID->"a490e1ed-32f4-47d1-9a67-\
+08fb48c8cf13"],
+
+Cell["\<\
+It should be able to transition from one desired state to the next without \
+having to go through intermediate states.\
+\>", "Subitem",
+ CellChangeTimes->{{3.803236736849802*^9, 3.803236761990093*^9}, {
+   3.8032374236065073`*^9, 3.803237463279611*^9}, 3.803237504953247*^9, {
+   3.803237551007289*^9, 3.803237581312911*^9}, {3.803237667999301*^9, 
+   3.8032378903687286`*^9}},ExpressionUUID->"ccbf95ea-f0d3-4ce2-9167-\
+a0b5578ef8ba"]
+}, Open  ]],
+
+Cell["\<\
+For many modules this will be an expensive optimisation problem\
+\>", "Item",
+ CellChangeTimes->{{3.803236736849802*^9, 3.803236761990093*^9}, {
+  3.8032379027988834`*^9, 
+  3.8032379042001677`*^9}},ExpressionUUID->"d3a1c232-9853-4e3b-a210-\
+b5ce6e4a4f9c"],
+
+Cell["\<\
+The optimal solution to the module states at a time step is dependent on the \
+entire path the robot has to traverse.\
+\>", "Item",
+ CellChangeTimes->{{3.803236736849802*^9, 
+  3.8032368347524276`*^9}},ExpressionUUID->"4d60e0aa-021b-4bb5-bdb9-\
+b7dae01186a4"]
+}, Open  ]],
+
+Cell["", "Text",
+ CellChangeTimes->{{3.8026224294979334`*^9, 3.802622452209407*^9}, {
+   3.8026224882905083`*^9, 3.802622831752851*^9}, {3.8026228755849123`*^9, 
+   3.802623026545463*^9}, {3.8026230610984488`*^9, 3.802623121997545*^9}, {
+   3.802623173297407*^9, 3.8026232968682275`*^9}, {3.802624287390987*^9, 
+   3.802624354448368*^9}, {3.8026243849113207`*^9, 3.8026244038070774`*^9}, 
+   3.8032366182110634`*^9},ExpressionUUID->"6ab67e7e-1222-4814-a2a4-\
+be1532d4d455"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Address engineering issues", "Subtitle",
+ InitializationCell->True,
+ CellChangeTimes->{{3.802623345010538*^9, 3.802623377696661*^9}, {
+  3.8032368801525292`*^9, 
+  3.8032368997201643`*^9}},ExpressionUUID->"5864537e-3943-427f-a9d8-\
+2614af41afce"],
+
+Cell[CellGroupData[{
+
+Cell["\<\
+Communication with modules  (Possibly electrically through lattice)\
+\>", "Item",
+ CellChangeTimes->{{3.8032369021945496`*^9, 
+  3.803236937301241*^9}},ExpressionUUID->"63706eb2-7080-4e88-af6c-\
+20fe47022ec7"],
+
+Cell["Powering Components ", "Item",
+ CellChangeTimes->{{3.8032369021945496`*^9, 
+  3.8032369579494457`*^9}},ExpressionUUID->"4bd27d74-8d89-4cff-83c3-\
+25f073cb2c12"],
+
+Cell["Connectors between modules that allow for", "Item",
+ CellChangeTimes->{{3.8032369021945496`*^9, 3.8032369717933836`*^9}, {
+  3.803237011304926*^9, 
+  3.8032370677494545`*^9}},ExpressionUUID->"7dac7586-5304-492d-9a63-\
+1e67caa5ea49"],
+
+Cell[CellGroupData[{
+
+Cell[" Power and data transfer", "Subitem",
+ CellChangeTimes->{{3.8032369021945496`*^9, 3.8032369717933836`*^9}, {
+  3.803237011304926*^9, 
+  3.8032370752169876`*^9}},ExpressionUUID->"79f42434-3dbc-4c18-a2f6-\
+c311da022159"],
+
+Cell["Automatic connection to other modules when they are nearby", "Subitem",
+ CellChangeTimes->{{3.8032369021945496`*^9, 3.8032369717933836`*^9}, {
+  3.803237011304926*^9, 3.803237043400738*^9}, {3.8032370778883924`*^9, 
+  3.8032371164209085`*^9}},ExpressionUUID->"c47a14f7-8fc2-4816-b322-\
+b67b1bd4eadd"]
+}, Open  ]],
+
+Cell["Structural issues and vibrations ", "Item",
+ CellChangeTimes->{{3.8032369021945496`*^9, 3.8032369717933836`*^9}, {
+  3.803237011304926*^9, 3.803237043400738*^9}, {3.8032370778883924`*^9, 
+  3.803237151863426*^9}},ExpressionUUID->"4e6a97de-63aa-4c4c-85ab-\
+811e8915fe81"],
+
+Cell["Module power to size tradeoffs", "Item",
+ CellChangeTimes->{{3.8032369021945496`*^9, 3.8032369717933836`*^9}, {
+  3.803237011304926*^9, 3.803237043400738*^9}, {3.8032370778883924`*^9, 
+  3.803237093655427*^9}, {3.8032371833697233`*^9, 
+  3.803237189296213*^9}},ExpressionUUID->"990ce974-b51a-4b4a-840b-\
+8951188d6bbf"]
+}, Open  ]],
+
+Cell["\<\
+
+\t \
+\>", "Text",
+ CellChangeTimes->{{3.8026234365518703`*^9, 3.802623500033515*^9}, {
+   3.802623567112723*^9, 3.80262359281573*^9}, {3.8026236281917677`*^9, 
+   3.802623828151862*^9}, {3.8026238612236557`*^9, 3.802623880584057*^9}, {
+   3.8026240073997087`*^9, 3.802624243175538*^9}, 
+   3.8032368595219016`*^9},ExpressionUUID->"c41b69ad-e279-439f-ba10-\
+da402dc5c612"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[TextData[{
+ "Parallel: General Computing and General Robotics \n",
+ Cell[BoxData[GridBox[{
+    {"\[AliasDelimiter]", 
+     StyleBox["Computing", "Chapter"], 
+     StyleBox["Robotics", "Chapter"]},
+    {
+     StyleBox[
+      RowBox[{"What", " ", "is", " ", "a", " ", 
+       RowBox[{"program", "?"}]}], "Text"], 
+     StyleBox[
+      RowBox[{
+      "Makes", " ", "decisions", " ", "on", " ", "how", "  ", "things", " ", 
+       "should", " ", "change"}], "Text"], 
+     StyleBox[
+      RowBox[{
+      "Make", " ", "decisions", " ", "about", " ", "how", " ", "the", " ", 
+       "distance", " ", "between", " ", "things", " ", "should", " ", 
+       "change"}], "Text"]},
+    {
+     StyleBox[
+      RowBox[{
+      "What", " ", "do", " ", "we", " ", "need", " ", "to", " ", "make", " ", 
+       "a", " ", 
+       RowBox[{"program", "?"}]}], "Text"], 
+     StyleBox[
+      RowBox[{
+      "Something", " ", "that", " ", "can", " ", "make", " ", "a", " ", 
+       "decision"}], "Text"], 
+     StyleBox[
+      RowBox[{
+       RowBox[{
+       "Something", " ", "that", " ", "can", " ", "decide", " ", "how", " ", 
+        "the"}], " ", "\[IndentingNewLine]", 
+       RowBox[{
+       "distance", " ", "between", " ", "things", " ", "should", " ", 
+        "change"}]}], "Text"]},
+    {
+     StyleBox[
+      RowBox[{"What", " ", "is", " ", "used", " ", "to", " ", "make", " ", 
+       RowBox[{"decisions", "?"}]}], "Text"], 
+     StyleBox["Rules", "Text"], 
+     StyleBox[
+      RowBox[{
+      "Rules", " ", "that", " ", "say", " ", "how", " ", "the", " ", 
+       "distance", " ", "between", " ", "things", " ", "should", " ", 
+       "change"}], "Text"]},
+    {
+     StyleBox[
+      RowBox[{
+      "Why", " ", "can", " ", "we", " ", "write", " ", "programs", " ", 
+       "using", " ", 
+       RowBox[{"decisions", "?"}]}], "Text"], 
+     StyleBox[
+      RowBox[{
+       RowBox[{
+       "A", " ", "specific", " ", "mix", " ", "of", " ", "decisions", " ", 
+        "lead", " ", "to", " ", "a", " ", "more"}], " ", 
+       "\[IndentingNewLine]", 
+       RowBox[{
+       "intersting", " ", "decision", " ", "that", " ", "we", " ", "call", 
+        " ", "a", " ", "program"}]}], "Text"], 
+     StyleBox[
+      RowBox[{
+       RowBox[{
+       "A", " ", "specific", " ", "mix", " ", "of", " ", "decisions", " ", 
+        "about", " ", "how", " ", "distance", " ", "should", " ", "change"}], 
+       "\[IndentingNewLine]", " ", 
+       RowBox[{
+       "lead", " ", "to", " ", "and", " ", "interesting", " ", "change", " ", 
+        "in", " ", "distance", " ", "between", " ", "things"}]}], "Text"]},
+    {
+     StyleBox[
+      RowBox[{
+      "Who", " ", "decides", " ", "how", " ", "the", " ", "decisions", " ", 
+       "should", " ", "be", " ", 
+       RowBox[{"mixed", "?"}]}], "Text"], 
+     StyleBox[
+      RowBox[{"We", " ", 
+       RowBox[{"do", ".", " ", "We"}], " ", "write", " ", "a", " ", 
+       RowBox[{"program", "."}]}], "Text"], 
+     StyleBox[
+      RowBox[{"We", " ", "do"}], "Text"]},
+    {
+     StyleBox[
+      RowBox[{
+      "Do", " ", "we", " ", "know", " ", "what", " ", "the", " ", "program", 
+       " ", "will", " ", "output", " ", 
+       RowBox[{"beforehand", "?"}]}], "Text"], 
+     StyleBox["No", "Text"], 
+     StyleBox["No", "Text"]},
+    {
+     StyleBox[
+      RowBox[{
+       RowBox[{"Is", " ", "the", " ", "way", " ", "we", " ", "mix", " ", 
+        RowBox[{"decisions", "/", "rules"}]}], "\[IndentingNewLine]", 
+       RowBox[{
+       "affected", " ", "by", " ", "what", " ", "we", " ", "want", " ", "to", 
+        " ", 
+        RowBox[{"know", "?"}]}]}], "Text"], 
+     RowBox[{"Yes", " "}], "Yes"},
+    {
+     StyleBox[
+      RowBox[{
+      "Is", " ", "there", " ", "more", " ", "than", " ", "one", " ", "way", 
+       " ", "to", " ", "write", " ", "the", " ", "same", " ", 
+       RowBox[{"program", "?"}]}], "Text"], "Yes", "Yes"},
+    {
+     RowBox[{
+      RowBox[{
+      "What", " ", "do", " ", "we", " ", "have", " ", "to", " ", "decide", 
+       " ", 
+       RowBox[{"(", "design", ")"}]}], "\[IndentingNewLine]", " ", 
+      RowBox[{"for", " ", "the", " ", 
+       RowBox[{"program", "?"}]}]}], 
+     RowBox[{
+      RowBox[{"What", " ", "decisions", " ", "can", " ", "be", " ", "made"}], 
+      " ", "\[IndentingNewLine]", 
+      RowBox[{"(", 
+       RowBox[{
+        RowBox[{"(", 
+         RowBox[{"0", ",", "1"}], ")"}], " ", "vs", " ", 
+        RowBox[{"(", 
+         RowBox[{"0", ",", "1", ",", "2"}], ")"}]}], ")"}], 
+      "\[IndentingNewLine]", 
+      RowBox[{"How", " ", "do", " ", "we", " ", "mix", " ", "these", " ", 
+       RowBox[{"decisions", "?", "\[IndentingNewLine]", 
+        RowBox[{"(", 
+         RowBox[{"Writing", " ", "a", " ", "program"}], ")"}]}]}]}], 
+     RowBox[{
+      RowBox[{
+      "How", " ", "distance", " ", "between", " ", "things", " ", "change"}], 
+      "\[IndentingNewLine]", 
+      RowBox[{"(", 
+       RowBox[{
+       "angular", " ", "distance", " ", "vs", " ", "linear", " ", 
+        "distance"}], ")"}], "\[IndentingNewLine]", 
+      RowBox[{"(", 
+       RowBox[{"Discrete", " ", "vs", " ", "Continous"}], ")"}], 
+      "\[IndentingNewLine]", 
+      RowBox[{
+      "How", " ", "to", " ", "mix", " ", "decisions", " ", "of", " ", "how", 
+       " ", "distance", " ", "between", " ", "things", " ", "change"}]}]},
+    {
+     RowBox[{
+      RowBox[{
+      "Do", " ", "we", " ", "sometimes", " ", "try", " ", "to", " ", "find", 
+       " ", "the"}], " ", "\[IndentingNewLine]", 
+      RowBox[{
+      "program", " ", "that", " ", "caused", " ", "a", " ", "certain", " ", 
+       "decision"}]}], 
+     RowBox[{
+      RowBox[{"Yes", ".", " ", "Thats"}], " ", "called", " ", "machine", " ", 
+      RowBox[{"learning", "."}]}], 
+     RowBox[{
+      RowBox[{"Yes", ".", " ", "Thats"}], " ", "called", " ", "Inverse", " ", 
+      "kinematics"}]}
+   },
+   GridBoxDividers->{"Columns" -> {{True}}, "Rows" -> {{True}}}]], "Text",
+  ExpressionUUID->"186baa20-66b1-4141-9121-b0566b1aea01"]
+}], "Title",
+ CellChangeTimes->CompressedData["
+1:eJxTTMoPSmViYGAQB2IQ3WbnfL4j9I3j8XlxV0D0KfOJN0H0jYgN90G07vIr
+T0D0vQfHXoDo3atF3oLoeRvjeTuBNGMNrwiI5ql6Kwqia4yT5ED0QoHFZiD6
+bEGZNYg+JzjTCURrHc71ANFzQo75gWiOCuZgEH2BozIVRC9oWlMIojOe3i0B
+0RahX6pAdMs92WoQ7TXhXjeIflgZPgFEW5lLzQfRURvm7gTRD3auLuoC0hPk
+K8pAtMwq5RoQXbbZqhZEO0S6NoNohYgyMN3UMrETRG8Lt1oEot0YvAy6gXTO
+Z1NjEJ1Vt9UCRBtUCluB6FCBq/YgWmPBWzBddEArRzLsjaPL3W0FILply/MS
+ZNrMJKMRRL/bUtUEogHJR7TU
+  "],ExpressionUUID->"16952f69-3626-42c8-bc34-dc92c9b34768"],
+
+Cell["\<\
+
+Robotics = machine learning (inverse problem) type problem? Or we can \
+simulate data and build some sort of nonlinear surrogate model to model the \
+robot. 
+Like machine learning, you could either choose the architecture (Lattice \
+layout) or determine the ideal architecture computationally\
+\>", "Text",
+ CellChangeTimes->{{3.8029429690373845`*^9, 3.8029437924494524`*^9}, {
+  3.8029438248067427`*^9, 3.8029439157536564`*^9}, {3.802943959217972*^9, 
+  3.802944068481699*^9}, {3.802944198345853*^9, 3.8029442544450502`*^9}, {
+  3.8029448258024874`*^9, 3.8029450082104335`*^9}, {3.802946078328368*^9, 
+  3.8029460787213635`*^9}, {3.803237939143227*^9, 
+  3.8032380235994453`*^9}},ExpressionUUID->"4c8a467f-6ee5-40b3-95d1-\
+47e2148df708"],
+
+Cell[CellGroupData[{
+
+Cell["Reasons why we don\[CloseCurlyQuote]t have general robotics today", \
+"Chapter",
+ CellChangeTimes->{{3.8031044623898573`*^9, 3.80310448688568*^9}, 
+   3.803112241816561*^9},ExpressionUUID->"3626c50b-f59f-49a5-9ca8-\
+43c73e65941a"],
+
+Cell[BoxData[""], "Input",
+ CellChangeTimes->{{3.803236657694597*^9, 
+  3.803236660360467*^9}},ExpressionUUID->"c0c7f910-df05-4e51-99ba-\
+004777d38ff8"],
+
+Cell["\<\
+We can do most tasks with a simple 6 DOF robot without having to reconfigure
+Inverse kinematics is expensive
+One robot for one task for its life
+\
+\>", "Text",
+ CellChangeTimes->{{3.803104554780258*^9, 3.8031046074687*^9}, {
+   3.8031122256628084`*^9, 3.803112233198187*^9}, 3.803236682032466*^9, {
+   3.8032380451591415`*^9, 
+   3.8032380648231983`*^9}},ExpressionUUID->"0413c873-689b-45b5-88b2-\
+e341e28a99d0"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Rule based idea", "Subtitle",
+ CellChangeTimes->{{3.8032366668236885`*^9, 
+  3.8032366708175507`*^9}},ExpressionUUID->"a7d3f216-f727-43a4-a32f-\
+95176c892f75"],
+
+Cell["\<\
+
+Rule to distribute information through the lattice
+The rule is used to distribute information about the desired lattice state \
+(not to be confused with module state) to the respective modules
+Criteria for a good rule :
+  \t\[Bullet]Traverse as many as possible lattice states with the least \
+amount of module state updates.
+   \t*Ideally the \"interestingness\" of the rule should be independent of \
+the lattice structure (Having to adust for lattice edges and boundary \
+conditions). Totalistic Rules?
+    \t\[Bullet]Ideally show the required complex behaviour with all initial \
+modules states being the same (not having to manually set module initial \
+conditions for a given lattice structure)
+\t\[Bullet]Ideally be a interesting rule independent of how the lattice is \
+structured so that modules do not have to be \"reprogrammed\" with different \
+rules for different lattice configurations. (one would prefer having to \
+manually set the initial conditions of the modules above having to change the \
+rules)
+\t\[Bullet]Be able to reach the lattice state we are interested in less than \
+10 E5 updates. Assuming rule updates happen at ~10 E6 Hz and system dynamics \
+at ~1 E1Hz  
+\t This means that only up to a 10 th of the time of moving from one lattice \
+state would be used for computation\
+\>", "Text",
+ CellChangeTimes->{{3.80323503175661*^9, 3.8032350591266503`*^9}, {
+  3.80323664959988*^9, 
+  3.803236654520049*^9}},ExpressionUUID->"08112738-a71d-4e3e-a3fe-\
+87d05765d338"],
+
+Cell["\<\
+For the ideal rule there would be a number of updates corresponding to each \
+lattice state. This could then be used to control the movement of the lattice. 
+  The kinematics of the lattice would have to be modelled (dependent on \
+boundary conditions, actuator sizes) to know how what update numbers we would \
+like to use 
+
+However, depending on the application, we could be only interested in the \
+movement of one or two vertices in the entire lattice.
+    \t\[Bullet]There could be multiple solutions that satisfy these \
+constraints.
+    \t\[Bullet]Remove the some of the update possibilities that either are \
+very large or give behaviour that we are not interested in.  
+   
+   The \"number of updates \" -> \"lattice state \" mapping could be very \
+large. It could be expensive to find the number that corresponds to the \
+lattice state
+\t\[Bullet]Could you train some sort of data - driven surrogate model to \
+establish the mapping? \
+\>", "Text",
+ CellChangeTimes->{{3.8032366392277594`*^9, 
+  3.803236642318059*^9}},ExpressionUUID->"b54fe684-4e18-42f5-83f8-\
+ecbe387b45e2"],
+
+Cell["\<\
+\[Bullet]Entire lattice is electrically connected with a separate low current \
+mesh for module interactions and a high current mesh for powering actuators,
+\[Bullet]Pass a HIGH - LOW square wave though the entire low current lattice
+\t\[Bullet]HIGH : Module \"looks\" at neighbours and determine what its next \
+module state should be
+\t\[Bullet]Low :   Module starts transitioning to its next state
+*Pass a different instruction through the lattice to signal the modules to \
+reset to their initial states (Could be different Square wave frequency, 3 rd \
+logic voltage level, time delay etc.)
+\[Bullet]Wont be surprised if rules can be implemented with simple electronic \
+circuits. For an initial prototype it would however make sense to use a \
+microcontroller to implement the rules and be able to set a delay to wait for \
+all update instructions to complete before activating actuators and \
+controlling rate of movement of actuators.\
+\>", "Text",
+ CellChangeTimes->{{3.803236866133334*^9, 
+  3.803236869562129*^9}},ExpressionUUID->"44d8375f-42b8-4f18-becf-\
+31da861cda14"]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{1904, 981},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+Magnification:>1.6 Inherited,
+FrontEndVersion->"12.1 for Microsoft Windows (64-bit) (March 20, 2020)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"3c97b0b5-ec22-44bf-8692-8bf6c967b334"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[583, 22, 178, 3, 155, "Title",ExpressionUUID->"e59264fe-7684-4024-abc1-c744eec9e44c"],
+Cell[764, 27, 331, 5, 82, "Subtitle",ExpressionUUID->"4533fdd9-d5a4-4697-9c0a-608a32fa5ef2"],
+Cell[CellGroupData[{
+Cell[1120, 36, 159, 3, 50, "Item",ExpressionUUID->"bb2f270b-4d12-4f1b-8261-b47a6e28b832"],
+Cell[1282, 41, 164, 3, 50, "Item",ExpressionUUID->"4576a2ce-d1a1-44b0-b208-26c55619982a"],
+Cell[1449, 46, 230, 4, 50, "Item",ExpressionUUID->"a5ccbd60-918a-483f-bb65-5ded48764f50"],
+Cell[CellGroupData[{
+Cell[1704, 54, 180, 3, 42, "Subitem",ExpressionUUID->"fb325f7c-fe19-49dd-bce2-3b11b3746104"],
+Cell[1887, 59, 273, 6, 42, "Subitem",ExpressionUUID->"9deef31f-b4a4-4d1c-8d46-100706432ac4"]
+}, Open  ]],
+Cell[2175, 68, 231, 4, 50, "Item",ExpressionUUID->"d747e86e-9888-4cf6-bba8-49b8c789da29"],
+Cell[CellGroupData[{
+Cell[2431, 76, 290, 4, 42, "Subitem",ExpressionUUID->"2adcfa25-3980-403c-bf08-435eb79bc5de"],
+Cell[2724, 82, 384, 6, 42, "Subitem",ExpressionUUID->"b169b8a6-e783-403b-bfa3-7865fe294e3f"],
+Cell[3111, 90, 326, 5, 73, "Subitem",ExpressionUUID->"b04962b8-c754-4f8c-8630-101714e6ba5d"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[3486, 101, 308, 4, 82, "Subtitle",ExpressionUUID->"50bc26b6-73ba-4f77-9b5f-a35b5897ab8a"],
+Cell[CellGroupData[{
+Cell[3819, 109, 266, 6, 50, "Item",ExpressionUUID->"4891e180-55bf-4fbc-b7ae-3faf66f969cb"],
+Cell[4088, 117, 288, 4, 50, "Item",ExpressionUUID->"447ae0a2-a8c3-4ed4-ac94-f883824dac02"],
+Cell[4379, 123, 274, 4, 50, "Item",ExpressionUUID->"2eed4166-2c21-47a8-afaf-3b5512bb3f6c"],
+Cell[CellGroupData[{
+Cell[4678, 131, 308, 4, 42, "Subitem",ExpressionUUID->"24c5c900-a7dd-4157-9b8d-8f56b7895128"],
+Cell[4989, 137, 351, 5, 42, "Subitem",ExpressionUUID->"b97d37e8-432c-45d6-8d6e-4cff9e616814"],
+Cell[5343, 144, 415, 8, 42, "Subitem",ExpressionUUID->"232d338b-07c0-4dae-a57c-48cb36d6783c"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[5819, 159, 400, 8, 132, "Subtitle",ExpressionUUID->"252406b5-b41b-4cf4-9c73-acbb99ec4523"],
+Cell[CellGroupData[{
+Cell[6244, 171, 215, 4, 50, "Item",ExpressionUUID->"cdcef412-df90-4c17-accb-7e490d9a1373"],
+Cell[CellGroupData[{
+Cell[6484, 179, 435, 8, 42, "Subitem",ExpressionUUID->"12615596-ce0c-4e4f-93e4-047278d0c251"],
+Cell[6922, 189, 415, 8, 42, "Subitem",ExpressionUUID->"813abbf2-fffe-466d-99b8-c1e4023f759d"],
+Cell[7340, 199, 377, 5, 42, "Subitem",ExpressionUUID->"2d536b11-da48-43b5-93c8-5be1d2b560bc"],
+Cell[7720, 206, 416, 6, 42, "Subitem",ExpressionUUID->"a88ec2a6-3886-43b8-9680-ae6647f120d7"],
+Cell[8139, 214, 401, 7, 42, "Subitem",ExpressionUUID->"a490e1ed-32f4-47d1-9a67-08fb48c8cf13"],
+Cell[8543, 223, 444, 8, 42, "Subitem",ExpressionUUID->"ccbf95ea-f0d3-4ce2-9167-a0b5578ef8ba"]
+}, Open  ]],
+Cell[9002, 234, 266, 6, 50, "Item",ExpressionUUID->"d3a1c232-9853-4e3b-a210-b5ce6e4a4f9c"],
+Cell[9271, 242, 269, 6, 50, "Item",ExpressionUUID->"4d60e0aa-021b-4bb5-bdb9-b7dae01186a4"]
+}, Open  ]],
+Cell[9555, 251, 473, 7, 55, "Text",ExpressionUUID->"6ab67e7e-1222-4814-a2a4-be1532d4d455"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[10065, 263, 252, 5, 82, "Subtitle",ExpressionUUID->"5864537e-3943-427f-a9d8-2614af41afce",
+ InitializationCell->True],
+Cell[CellGroupData[{
+Cell[10342, 272, 219, 5, 50, "Item",ExpressionUUID->"63706eb2-7080-4e88-af6c-20fe47022ec7"],
+Cell[10564, 279, 166, 3, 50, "Item",ExpressionUUID->"4bd27d74-8d89-4cff-83c3-25f073cb2c12"],
+Cell[10733, 284, 238, 4, 50, "Item",ExpressionUUID->"7dac7586-5304-492d-9a63-1e67caa5ea49"],
+Cell[CellGroupData[{
+Cell[10996, 292, 224, 4, 42, "Subitem",ExpressionUUID->"79f42434-3dbc-4c18-a2f6-c311da022159"],
+Cell[11223, 298, 306, 4, 42, "Subitem",ExpressionUUID->"c47a14f7-8fc2-4816-b322-b67b1bd4eadd"]
+}, Open  ]],
+Cell[11544, 305, 276, 4, 50, "Item",ExpressionUUID->"4e6a97de-63aa-4c4c-85ab-811e8915fe81"],
+Cell[11823, 311, 324, 5, 50, "Item",ExpressionUUID->"990ce974-b51a-4b4a-840b-8951188d6bbf"]
+}, Open  ]],
+Cell[12162, 319, 382, 9, 92, "Text",ExpressionUUID->"c41b69ad-e279-439f-ba10-da402dc5c612"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[12593, 334, 6452, 169, 850, "Title",ExpressionUUID->"16952f69-3626-42c8-bc34-dc92c9b34768"],
+Cell[19048, 505, 749, 14, 127, "Text",ExpressionUUID->"4c8a467f-6ee5-40b3-95d1-47e2148df708"],
+Cell[CellGroupData[{
+Cell[19822, 523, 236, 4, 108, "Chapter",ExpressionUUID->"3626c50b-f59f-49a5-9ca8-43c73e65941a"],
+Cell[20061, 529, 152, 3, 45, "Input",ExpressionUUID->"c0c7f910-df05-4e51-99ba-004777d38ff8"],
+Cell[20216, 534, 422, 10, 163, "Text",ExpressionUUID->"0413c873-689b-45b5-88b2-e341e28a99d0"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[20675, 549, 165, 3, 82, "Subtitle",ExpressionUUID->"a7d3f216-f727-43a4-a32f-95176c892f75"],
+Cell[20843, 554, 1503, 28, 449, "Text",ExpressionUUID->"08112738-a71d-4e3e-a3fe-87d05765d338"],
+Cell[22349, 584, 1097, 22, 378, "Text",ExpressionUUID->"b54fe684-4e18-42f5-83f8-ecbe387b45e2"],
+Cell[23449, 608, 1092, 18, 342, "Text",ExpressionUUID->"44d8375f-42b8-4f18-becf-31da861cda14"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
