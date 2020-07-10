@@ -10,14 +10,35 @@ phi2 =ArcCos[(l1^2+l3^2-l2^2)/(2*l1*l3)];
 
 
 MeshTriag::usage = "Used to plot a triangle, given 3 points";
-MeshTriag[c1_,c2_,c3_,pltrange_]:=(
+MeshTriag[c1_, c2_, c3_, pltrange_]:=(
 MeshRegion[{c1,c2,c3},{Line[{1,2}],Line[{2,3}],Line[{1,3}]},PlotRange->pltrange,Axes->False]
+)
+
+
+MeshColorTriag::usage = "Used to plot a triangle, given 3 points";
+MeshColorTriag[c1_, c2_, c3_, pltrange_]:=(
+Graphics[{
+Style[Line[{c1,c2}],DistanceToColor[c1,c2]],
+Style[Line[{c2,c3}],DistanceToColor[c2,c3]],
+Style[Line[{c3,c1}],DistanceToColor[c3,c1]]}]
+)
+
+
+DistanceToColor::usage = "Convers a certain distance to a color";
+DistanceToColor[c1_, c2_]:=(
+If[EuclideanDistance[c1,c2]>0.7,Darker@Green,Red]
 )
 
 
 MeshAllTriag::usage = "Used to plot triangles for all coordinates as returned by a TriangleWorm";
 MeshAllTriag[coordlist_,pltrange_]:=(
 Show[Table[MeshTriag[coordlist[[i]],coordlist[[i+1]],coordlist[[i+2]],pltrange],{i,1,Length[coordlist]-2}]]
+);
+
+
+MeshColorAllTriag::usage = "Used to plot color triangles for all coordinates as returned by a TriangleWorm";
+MeshColorAllTriag[coordlist_,pltrange_]:=(
+Show[Table[MeshColorTriag[coordlist[[i]],coordlist[[i+1]],coordlist[[i+2]],pltrange],{i,1,Length[coordlist]-2}]]
 );
 
 
@@ -154,34 +175,4 @@ CollistionQ::usage = "Used to detect collisions between rods";
 CollisionQ[coords_,shortlength_]:=(
 distance = DistanceMatrix[coords] + IdentityMatrix[Length[coords]]*shortlength;
 AnyTrue[distance,#<shortlength&,2]
-)
-
-
-(* ::Subsubsection:: *)
-(*Constructing graphs*)
-
-
-FindNeighbours::usage = "Used to detect collisions between rods";
-FindNeighbours[state_]:=Table[FlipLength[state,i],{i,Length[state]}];
-
-
-StateToNeighbours::usage = "Gives a mapping between a certain state and its neighbours for graphing";
-StateToNeighbours[state_,style_]:=Style[state->#,style]&/@FindNeighbours[state];
-
-
-MakeState[statenumber_,nrods_]:=IntegerDigits[statenumber-1,2,nrods]/.{0->shortlength,0->longlength}
-
-
-PlotCoordTransition::usage = "For input to tootip of graphs";
-PlotCoordTransition[transition_]:= (
-MeshAllTriag[MakeTriangleWorm[fixed1,fixed2,First@First@transition],{{0,3},{0,3}}]->
-MeshAllTriag[MakeTriangleWorm[fixed1,fixed2,Last@First@transition],{{0,3},{0,3}}]
-)
-
-
-FlipLength::usage = "Change the length of an index;
-FlipLength[state_,index_]:=(
-neighbour=state;
-neighbour[[index]] =state[[index]]/.{0.6\[Rule]1,1\[Rule]0.6};
-neighbour
 )
