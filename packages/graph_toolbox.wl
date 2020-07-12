@@ -28,3 +28,18 @@ neighbour=state;
 neighbour[[index]] =state[[index]]/.{0.6->1,1->0.6};
 neighbour
 )
+
+
+(* ::Subsubsection:: *)
+(*Optimal transition between states*)
+
+
+SmallCoordChangeMetric[pathbetweenstates_]:=(
+allcoords = (MakeTriangleWorm[fixed1,fixed2,#]&/@pathbetweenstates)[[All,-1,All]];
+distancebetween = Total@Transpose@(allcoords[[2;;-1,All]]-allcoords[[1;;-2,All]])^2;
+Total[distancebetween]/Length[pathbetweenstates]
+)
+
+
+AllCoordsForStatePath::usage = "Find all end effector ";
+AllCoordsForStatePath[path_]:=(MakeTriangleWorm[fixed1,fixed2,#]&/@path)[[All,-1,All]];

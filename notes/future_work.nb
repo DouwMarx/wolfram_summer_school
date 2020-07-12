@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       161,          7]
-NotebookDataLength[      1311,         45]
-NotebookOptionsPosition[       967,         31]
-NotebookOutlinePosition[      1365,         47]
-CellTagsIndexPosition[      1322,         44]
+NotebookDataLength[      3991,         85]
+NotebookOptionsPosition[      3554,         70]
+NotebookOutlinePosition[      3952,         86]
+CellTagsIndexPosition[      3909,         83]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -27,7 +27,46 @@ Problem of high current draw at the base\
  CellChangeTimes->{{3.802717267642792*^9, 3.80271728892327*^9}, {
   3.8027173382591543`*^9, 
   3.8027173730184393`*^9}},ExpressionUUID->"2e5dd391-ec99-4b11-90e2-\
-44e651959bc4"]
+44e651959bc4"],
+
+Cell["\<\
+If we have a weight on the robot that we want to move we have to make sure \
+that the force (tension or compression) in each module due to the weight is \
+smaller than the maximum force a module can apply.We keep on adding columns \
+until this is possible.Then, we can change the length of any actuator \
+(individually or simultaneously) and this would lead to a movement of the \
+weight.Claim : We can always keep on adding columns until the force an \
+individual actuator has to apply to move the object (break equilibrium) is \
+smaller than the maximum force the actuator can apply.Adding more columns \
+will always increase the mechanisms ability to resist a larger force (weight) \
+as there is no \"self stress\" - mechanism cannot work against itself.We do \
+however need a hat for this to be true.From point 1 we could calculate the \
+forces in each module from force equilibrium at each node.This is do - able \
+(because of how I chose the structure) but tricky.Guessing I could have it \
+done by the end of tomorrow.Doing this would act as proof that a certain \
+structure could handle a certain load.You would therefore know when you \
+should have to add more columns for a certain force.This is different from 1 \
+where we would say : \"You can always add more so lets figure out how much we \
+have to add later.\"
+I thought about your suggestion about working the forward problem with the \
+forces.This is unfortunately not possible.It has to do with how the force is \
+\"split\" (how much this way vs that way) at a joint.This split is a function \
+of the forces in all the other members.Basically solving a system of \
+equations like for 2.
+I thought of one way that something like 3 could work.With a few assumptions \
+and modelling the whole robot as a single member we can look at the worst \
+case our structure could be in and see if that could deal with the applied \
+force (weight).This should not take too long (1 hr?) but would probably \
+involve more engineering than programming.I also figured out the hat.Guessing \
+3 - 4 hours to program.Currently I' m thinking - Do number 1 or 4, then move \
+the new robot in 2 D space, then the hat.What would you like to see at the \
+end of the project?PS - Sorry if I keep on overthinking the engineering side \
+of things.I certainly enjoy nerding out about the engineering stuff, but I \
+also cannot afford making false engineering claims and putting it om the web.\
+\>", "Text",
+ CellChangeTimes->{{3.8034990181969614`*^9, 
+  3.8034990224216223`*^9}},ExpressionUUID->"9ad862d7-8424-4a4e-9ecf-\
+c2d15ed4a582"]
 },
 WindowSize->{1904, 997},
 WindowMargins->{{0, Automatic}, {Automatic, 0}},
@@ -46,7 +85,8 @@ CellTagsIndex->{}
 *)
 (*NotebookFileOutline
 Notebook[{
-Cell[561, 20, 402, 9, 56, "Text",ExpressionUUID->"2e5dd391-ec99-4b11-90e2-44e651959bc4"]
+Cell[561, 20, 402, 9, 56, "Text",ExpressionUUID->"2e5dd391-ec99-4b11-90e2-44e651959bc4"],
+Cell[966, 31, 2584, 37, 232, "Text",ExpressionUUID->"9ad862d7-8424-4a4e-9ecf-c2d15ed4a582"]
 }
 ]
 *)
