@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       161,          7]
-NotebookDataLength[     75495,       1558]
-NotebookOptionsPosition[     71414,       1480]
-NotebookOutlinePosition[     71842,       1497]
-CellTagsIndexPosition[     71799,       1494]
+NotebookDataLength[    226264,       5503]
+NotebookOptionsPosition[    221628,       5416]
+NotebookOutlinePosition[    222055,       5433]
+CellTagsIndexPosition[    222012,       5430]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -24,8 +24,7 @@ Cell[BoxData[
 1d_toolbox.wl\>\"", "]"}]], "Input",
  CellChangeTimes->{{3.8025893939877706`*^9, 3.802589427167431*^9}, {
   3.803376932026862*^9, 3.803376946179368*^9}},
- CellLabel->
-  "In[897]:=",ExpressionUUID->"7e71ce30-a3fe-4571-ab29-e0201020e8a2"],
+ CellLabel->"In[44]:=",ExpressionUUID->"7e71ce30-a3fe-4571-ab29-e0201020e8a2"],
 
 Cell[BoxData[
  RowBox[{"\[IndentingNewLine]", "ClearAll"}]], "Input",
@@ -119,8 +118,7 @@ Cell[BoxData[{
    3.8025907249419713`*^9, 3.802590814405879*^9}, {3.802607220645672*^9, 
    3.8026072335310345`*^9}, 3.802608020246637*^9, {3.8026958227450943`*^9, 
    3.802695836518284*^9}},
- CellLabel->
-  "In[1444]:=",ExpressionUUID->"9529e133-ccec-475c-8913-702e4117e40d"],
+ CellLabel->"In[45]:=",ExpressionUUID->"9529e133-ccec-475c-8913-702e4117e40d"],
 
 Cell[CellGroupData[{
 
@@ -138,8 +136,7 @@ Cell[BoxData[
     RowBox[{
      RowBox[{";;", "20"}], ",", "All"}], "]"}], "]"}], "]"}]], "Input",
  CellChangeTimes->{{3.8025902353934317`*^9, 3.8025902832863874`*^9}},
- CellLabel->
-  "In[1447]:=",ExpressionUUID->"43349dfd-b2e3-4c9b-afe9-fd070ed6b685"],
+ CellLabel->"In[54]:=",ExpressionUUID->"43349dfd-b2e3-4c9b-afe9-fd070ed6b685"],
 
 Cell[BoxData[
  GraphicsBox[RasterBox[CompressedData["
@@ -165,9 +162,8 @@ bg==
     Automatic}]], "Output",
  CellChangeTimes->{{3.802590274673828*^9, 3.8025902837978964`*^9}, 
    3.8025904808454523`*^9, 3.8026072474149446`*^9, 3.802695810607021*^9, 
-   3.8026958408852253`*^9},
- CellLabel->
-  "Out[1447]=",ExpressionUUID->"f95fd1c1-fbfe-47df-b870-eadf93c97061"]
+   3.8026958408852253`*^9, 3.8036479257304564`*^9},
+ CellLabel->"Out[54]=",ExpressionUUID->"5daf20ca-d644-4c27-8e31-16ab03feb772"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -187,8 +183,7 @@ Cell[BoxData[
    RowBox[{"PlotRange", "\[Rule]", "All"}]}], "]"}]], "Input",
  CellChangeTimes->{{3.802590884877957*^9, 3.8025908987738276`*^9}, {
   3.8026250331207*^9, 3.8026250714949193`*^9}},
- CellLabel->
-  "In[1448]:=",ExpressionUUID->"09a0a93b-4d52-4681-9d87-e61927beab45"],
+ CellLabel->"In[55]:=",ExpressionUUID->"09a0a93b-4d52-4681-9d87-e61927beab45"],
 
 Cell[BoxData[
  GraphicsBox[{{}, {{{}, {}, 
@@ -857,9 +852,8 @@ KuafFr+Pg3OlGv8DcM0/qA==
      Scaled[0.05]}},
   Ticks->{Automatic, Automatic}]], "Output",
  CellChangeTimes->{3.802678670766692*^9, 3.8026958116681795`*^9, 
-  3.802695844409927*^9},
- CellLabel->
-  "Out[1448]=",ExpressionUUID->"540bb899-c00c-4b4b-8986-1faad219e95b"]
+  3.802695844409927*^9, 3.803647930081843*^9},
+ CellLabel->"Out[55]=",ExpressionUUID->"2e333bd0-4d38-46ae-baa3-57e1d9350d76"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -999,7 +993,7 @@ Cell[BoxData[
        RowBox[{"Graphics", "[", "rodgraphspecs", "]"}], ",", 
        RowBox[{"Axes", "\[Rule]", 
         RowBox[{"{", 
-         RowBox[{"True", ",", "False"}], "}"}]}], ",", 
+         RowBox[{"False", ",", "False"}], "}"}]}], ",", 
        RowBox[{"PlotRange", "\[Rule]", 
         RowBox[{"{", 
          RowBox[{
@@ -1023,9 +1017,9 @@ Cell[BoxData[
    3.8025939744195013`*^9}, {3.802594661451652*^9, 3.80259470778578*^9}, {
    3.8025950350821133`*^9, 3.8025950930657954`*^9}, {3.8025953684465513`*^9, 
    3.8025953709921117`*^9}, {3.8025954990985823`*^9, 
-   3.8025955035288315`*^9}, {3.802607342845774*^9, 3.8026073757791557`*^9}},
- CellLabel->
-  "In[1169]:=",ExpressionUUID->"70b4d9f7-61f2-4f16-a020-d1494944464e"],
+   3.8025955035288315`*^9}, {3.802607342845774*^9, 3.8026073757791557`*^9}, {
+   3.803649869674404*^9, 3.803649871360843*^9}},
+ CellLabel->"In[63]:=",ExpressionUUID->"70b4d9f7-61f2-4f16-a020-d1494944464e"],
 
 Cell[CellGroupData[{
 
@@ -1049,22 +1043,21 @@ Cell[BoxData[{
   3.80259474417229*^9, 3.8025947775413227`*^9}, {3.8025949482357836`*^9, 
   3.802595004200986*^9}, {3.802595108391804*^9, 3.8025951344966755`*^9}, {
   3.8025953498276896`*^9, 3.8025953522981052`*^9}},
- CellLabel->
-  "In[1450]:=",ExpressionUUID->"766e4310-60da-494a-b058-9541b77e662c"],
+ CellLabel->"In[57]:=",ExpressionUUID->"766e4310-60da-494a-b058-9541b77e662c"],
 
 Cell[BoxData[
  InterpretationBox[
-  RowBox[{"\<\"After \"\>", "\[InvisibleSpace]", "8194", 
+  RowBox[{"\<\"After \"\>", "\[InvisibleSpace]", "8596", 
    "\[InvisibleSpace]", "\<\" updates, the rod should look like this:\"\>"}],
-  SequenceForm["After ", 8194, " updates, the rod should look like this:"],
+  SequenceForm["After ", 8596, " updates, the rod should look like this:"],
   Editable->False]], "Print",
  CellChangeTimes->{{3.802595152581724*^9, 3.802595179990032*^9}, {
    3.802595398566383*^9, 3.8025954045669746`*^9}, 3.8025955087084713`*^9, 
    3.802607318321971*^9, {3.8026073830476923`*^9, 3.8026073917862473`*^9}, 
-   3.802695874989325*^9},
+   3.802695874989325*^9, 3.803647972828343*^9},
  CellLabel->
   "During evaluation of \
-In[1450]:=",ExpressionUUID->"40a4acc9-e41a-4aeb-abba-c4b746aa1b60"],
+In[57]:=",ExpressionUUID->"03bdf1ab-7fd1-4991-bc82-eebf4401b379"],
 
 Cell[BoxData[
  GraphicsBox[{
@@ -1084,41 +1077,41 @@ Cell[BoxData[
      VertexColors->{
        RGBColor[0, 1, 0], 
        GrayLevel[0]}]}, 
-   {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{5., 1}, {5.5, 1}},
+   {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{5., 1}, {6.5, 1}},
+     VertexColors->{
+       RGBColor[0, 1, 0], 
+       GrayLevel[0]}]}, 
+   {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{6.5, 1}, {8., 1}},
+     VertexColors->{
+       RGBColor[0, 1, 0], 
+       GrayLevel[0]}]}, 
+   {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{8., 1}, {8.5, 1}},
      VertexColors->{
        RGBColor[1, 0, 0], 
        GrayLevel[0]}]}, 
-   {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{5.5, 1}, {7., 1}},
+   {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{8.5, 1}, {10., 1}},
      VertexColors->{
        RGBColor[0, 1, 0], 
        GrayLevel[0]}]}, 
-   {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{7., 1}, {7.5, 1}},
+   {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{10., 1}, {10.5, 1}},
      VertexColors->{
        RGBColor[1, 0, 0], 
        GrayLevel[0]}]}, 
-   {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{7.5, 1}, {9., 1}},
+   {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{10.5, 1}, {12., 1}},
      VertexColors->{
        RGBColor[0, 1, 0], 
        GrayLevel[0]}]}, 
-   {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{9., 1}, {9.5, 1}},
+   {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{12., 1}, {13.5, 1}},
+     VertexColors->{
+       RGBColor[0, 1, 0], 
+       GrayLevel[0]}]}, 
+   {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{13.5, 1}, {14., 1}},
      VertexColors->{
        RGBColor[1, 0, 0], 
        GrayLevel[0]}]}, 
-   {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{9.5, 1}, {10., 1}},
+   {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{14., 1}, {14.5, 1}},
      VertexColors->{
        RGBColor[1, 0, 0], 
-       GrayLevel[0]}]}, 
-   {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{10., 1}, {11.5, 1}},
-     VertexColors->{
-       RGBColor[0, 1, 0], 
-       GrayLevel[0]}]}, 
-   {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{11.5, 1}, {13., 1}},
-     VertexColors->{
-       RGBColor[0, 1, 0], 
-       GrayLevel[0]}]}, 
-   {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{13., 1}, {14.5, 1}},
-     VertexColors->{
-       RGBColor[0, 1, 0], 
        GrayLevel[0]}]}, 
    {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{14.5, 1}, {16., 1}},
      VertexColors->{
@@ -1128,63 +1121,63 @@ Cell[BoxData[
      VertexColors->{
        RGBColor[0, 1, 0], 
        GrayLevel[0]}]}, 
-   {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{17.5, 1}, {19., 1}},
+   {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{17.5, 1}, {18., 1}},
+     VertexColors->{
+       RGBColor[1, 0, 0], 
+       GrayLevel[0]}]}, 
+   {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{18., 1}, {19.5, 1}},
      VertexColors->{
        RGBColor[0, 1, 0], 
        GrayLevel[0]}]}, 
-   {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{19., 1}, {20.5, 1}},
+   {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{19.5, 1}, {21., 1}},
      VertexColors->{
        RGBColor[0, 1, 0], 
        GrayLevel[0]}]}, 
-   {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{20.5, 1}, {22., 1}},
+   {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{21., 1}, {21.5, 1}},
+     VertexColors->{
+       RGBColor[1, 0, 0], 
+       GrayLevel[0]}]}, 
+   {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{21.5, 1}, {22., 1}},
+     VertexColors->{
+       RGBColor[1, 0, 0], 
+       GrayLevel[0]}]}, 
+   {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{22., 1}, {22.5, 1}},
+     VertexColors->{
+       RGBColor[1, 0, 0], 
+       GrayLevel[0]}]}, 
+   {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{22.5, 1}, {24., 1}},
      VertexColors->{
        RGBColor[0, 1, 0], 
        GrayLevel[0]}]}, 
-   {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{22., 1}, {23.5, 1}},
+   {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{24., 1}, {25.5, 1}},
      VertexColors->{
        RGBColor[0, 1, 0], 
        GrayLevel[0]}]}, 
-   {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{23.5, 1}, {25., 1}},
+   {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{25.5, 1}, {26., 1}},
+     VertexColors->{
+       RGBColor[1, 0, 0], 
+       GrayLevel[0]}]}, 
+   {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{26., 1}, {26.5, 1}},
+     VertexColors->{
+       RGBColor[1, 0, 0], 
+       GrayLevel[0]}]}, 
+   {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{26.5, 1}, {28., 1}},
      VertexColors->{
        RGBColor[0, 1, 0], 
        GrayLevel[0]}]}, 
-   {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{25., 1}, {25.5, 1}},
-     VertexColors->{
-       RGBColor[1, 0, 0], 
-       GrayLevel[0]}]}, 
-   {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{25.5, 1}, {27., 1}},
+   {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{28., 1}, {29.5, 1}},
      VertexColors->{
        RGBColor[0, 1, 0], 
        GrayLevel[0]}]}, 
-   {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{27., 1}, {27.5, 1}},
+   {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{29.5, 1}, {31., 1}},
      VertexColors->{
-       RGBColor[1, 0, 0], 
+       RGBColor[0, 1, 0], 
        GrayLevel[0]}]}, 
-   {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{27.5, 1}, {28., 1}},
+   {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{31., 1}, {32.5, 1}},
      VertexColors->{
-       RGBColor[1, 0, 0], 
+       RGBColor[0, 1, 0], 
        GrayLevel[0]}]}, 
-   {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{28., 1}, {28.5, 1}},
-     VertexColors->{
-       RGBColor[1, 0, 0], 
-       GrayLevel[0]}]}, 
-   {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{28.5, 1}, {29., 1}},
-     VertexColors->{
-       RGBColor[1, 0, 0], 
-       GrayLevel[0]}]}, 
-   {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{29., 1}, {29.5, 1}},
-     VertexColors->{
-       RGBColor[1, 0, 0], 
-       GrayLevel[0]}]}, 
-   {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{29.5, 1}, {30., 1}},
-     VertexColors->{
-       RGBColor[1, 0, 0], 
-       GrayLevel[0]}]}, 
-   {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{30., 1}, {30.5, 1}},
-     VertexColors->{
-       RGBColor[1, 0, 0], 
-       GrayLevel[0]}]}, 
-   {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{30.5, 1}, {32., 1}},
+   {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{32.5, 1}, {34., 1}},
      VertexColors->{
        RGBColor[0, 1, 0], 
        GrayLevel[0]}]}},
@@ -1193,9 +1186,8 @@ Cell[BoxData[
  CellChangeTimes->{{3.80259514592566*^9, 3.8025951799960165`*^9}, {
    3.8025953985723667`*^9, 3.8025954045729585`*^9}, 3.8025955087164497`*^9, 
    3.8026073183534527`*^9, {3.802607383090576*^9, 3.802607391820159*^9}, 
-   3.8026958750022907`*^9},
- CellLabel->
-  "Out[1452]=",ExpressionUUID->"21f88030-9ce4-4a2c-b0cd-9a5faa7ed589"]
+   3.8026958750022907`*^9, 3.8036479728423057`*^9},
+ CellLabel->"Out[59]=",ExpressionUUID->"e8ec71c5-b56a-42ed-8bd0-98c3fb5a5120"]
 }, Open  ]]
 }, Open  ]],
 
@@ -1237,7 +1229,7 @@ Cell[BoxData[
     Typeset`animator$$, Typeset`animvar$$ = 1, Typeset`name$$ = 
     "\"untitled\"", Typeset`specs$$ = {{
       Hold[$CellContext`updates$$], 1, 10000, 1}}, Typeset`size$$ = {
-    428., {13.5, 20.5}}, Typeset`update$$ = 0, Typeset`initDone$$, 
+    216., {13.5, 20.5}}, Typeset`update$$ = 0, Typeset`initDone$$, 
     Typeset`skipInitDone$$ = True}, 
     DynamicBox[Manipulate`ManipulateBoxes[
      1, StandardForm, "Variables" :> {$CellContext`updates$$ = 1}, 
@@ -1252,7 +1244,7 @@ Cell[BoxData[
 $CellContext`rodlengths, $CellContext`rodstates]]}], 
       "Specifications" :> {{$CellContext`updates$$, 1, 10000, 1}}, 
       "Options" :> {}, "DefaultOptions" :> {}],
-     ImageSizeCache->{485., {67., 74.}},
+     ImageSizeCache->{347., {67., 74.}},
      SingleEvaluation->True],
     Deinitialization:>None,
     DynamicModuleValues:>{},
@@ -1295,7 +1287,16 @@ Cell[BoxData[
 graphics.\"", 2, 898, 40, 26041036765185609189, "Local"},
   "MessageTemplate"]], "Message", "MSG",
  CellChangeTimes->{3.803377409012967*^9},
- CellLabel->"",ExpressionUUID->"a10cdab6-2a6f-4df0-8a75-d75635cb90eb"]
+ CellLabel->"",ExpressionUUID->"a10cdab6-2a6f-4df0-8a75-d75635cb90eb"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Show", "gtype", 
+   "\"\\!\\(\\*RowBox[{\\\"GraphRodAssembly\\\"}]\\) is not a type of \
+graphics.\"", 2, 56, 10, 26042827628792006731, "Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.8036479370502467`*^9},
+ CellLabel->"",ExpressionUUID->"5dafce48-5328-4f89-a010-b1ba5bc4f597"]
 }, Open  ]],
 
 Cell[BoxData["|"], "Input",
@@ -1340,8 +1341,7 @@ Cell[BoxData[
    3.802605342435022*^9, 3.8026053862201796`*^9}, {3.8026054223277674`*^9, 
    3.8026054272385063`*^9}, {3.802606936938582*^9, 3.802606980595628*^9}, {
    3.802607024043325*^9, 3.8026070334435015`*^9}},
- CellLabel->
-  "In[1454]:=",ExpressionUUID->"136aa5b2-9474-48ac-9065-66687ad48122"],
+ CellLabel->"In[60]:=",ExpressionUUID->"136aa5b2-9474-48ac-9065-66687ad48122"],
 
 Cell[BoxData[
  RowBox[{"\[LeftAssociation]", 
@@ -1375,9 +1375,8 @@ Cell[BoxData[
  CellChangeTimes->{
   3.8026050536511683`*^9, {3.8026053648207703`*^9, 3.8026053902608643`*^9}, 
    3.8026054278863487`*^9, 3.8026070342255216`*^9, 3.8026074498188734`*^9, 
-   3.8026080622279882`*^9, 3.802695926148306*^9},
- CellLabel->
-  "Out[1454]=",ExpressionUUID->"aecae87a-f50e-442f-87eb-6d9321889aaa"]
+   3.8026080622279882`*^9, 3.802695926148306*^9, 3.803648016622372*^9},
+ CellLabel->"Out[60]=",ExpressionUUID->"5f285d02-4578-4a24-a4e6-425894528621"]
 }, Open  ]]
 }, Open  ]],
 
@@ -1427,7 +1426,7 @@ Cell[BoxData[
     "\"untitled\"", Typeset`specs$$ = {{
       Hold[$CellContext`traveldistance$$], {15., 17., 18., 19., 20., 21., 22.,
        23., 24., 25., 26., 27., 28., 29., 30., 31., 32., 33., 34., 35., 36., 
-      37., 38., 39., 40., 41.}}}, Typeset`size$$ = {574., {13.5, 20.5}}, 
+      37., 38., 39., 40., 41.}}}, Typeset`size$$ = {216., {13.5, 20.5}}, 
     Typeset`update$$ = 0, Typeset`initDone$$, Typeset`skipInitDone$$ = True}, 
     DynamicBox[Manipulate`ManipulateBoxes[
      1, StandardForm, "Variables" :> {$CellContext`traveldistance$$ = 15.}, 
@@ -1452,7 +1451,7 @@ $CellContext`rodlengths, $CellContext`rodstates]]}],
        ControlType -> Animator, AppearanceElements -> None, DefaultBaseStyle -> 
         "Animate", DefaultLabelStyle -> "AnimateLabel", SynchronousUpdating -> 
         True, ShrinkingDelay -> 10.}, "DefaultOptions" :> {}],
-     ImageSizeCache->{631., {59., 66.}},
+     ImageSizeCache->{471., {59., 66.}},
      SingleEvaluation->True],
     Deinitialization:>None,
     DynamicModuleValues:>{},
@@ -1474,12 +1473,3949 @@ Cell[BoxData[""], "Input",
  CellChangeTimes->{{3.8026203708677216`*^9, 3.80262037097344*^9}, {
   3.8026959886033344`*^9, 
   3.802695988857689*^9}},ExpressionUUID->"1e960099-ab67-472a-98d6-\
-d0e00fa6e946"]
+d0e00fa6e946"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"t", "=", 
+  RowBox[{"Table", "[", 
+   RowBox[{
+    RowBox[{"Column", "[", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"\"\<Apply rule \>\"", "<>", 
+        RowBox[{"ToString", "[", 
+         RowBox[{
+          RowBox[{"controlrules", "[", "traveldistance", "]"}], "-", "1"}], 
+         "]"}], " ", "<>", " ", "\"\< times\>\""}], ",", 
+       RowBox[{"Show", "[", 
+        RowBox[{"GraphRodAssembly", "[", 
+         RowBox[{
+          RowBox[{"controlrules", "[", "traveldistance", "]"}], ",", 
+          "rodlengths", ",", "rodstates"}], "]"}], "]"}]}], "}"}], "]"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"traveldistance", ",", 
+      RowBox[{"Keys", "[", "controlrules", "]"}]}], "}"}]}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.8036497498254023`*^9, 3.803649773643384*^9}, {
+  3.8036498358206415`*^9, 3.8036498361133857`*^9}, {3.8036501660356073`*^9, 
+  3.8036502683477273`*^9}},
+ CellLabel->"In[69]:=",ExpressionUUID->"da512bea-4e7c-44da-bdba-cc2b9c6fba22"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   TagBox[GridBox[{
+      {"\<\"Apply rule 0 times\"\>"},
+      {
+       GraphicsBox[{
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{0, 1}, {0.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{0.5, 1}, {1., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{1., 1}, {1.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{1.5, 1}, {2., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{2., 1}, {2.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{2.5, 1}, {3., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{3., 1}, {3.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{3.5, 1}, {4., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{4., 1}, {4.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{4.5, 1}, {5., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{5., 1}, {5.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{5.5, 1}, {6., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{6., 1}, {6.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{6.5, 1}, {7., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{7., 1}, {7.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{7.5, 1}, {8., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{8., 1}, {8.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{8.5, 1}, {9., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{9., 1}, {9.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{9.5, 1}, {10., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{10., 1}, {10.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{10.5, 1}, {11., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{11., 1}, {11.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{11.5, 1}, {12., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{12., 1}, {12.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{12.5, 1}, {13., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{13., 1}, {13.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{13.5, 1}, {14., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{14., 1}, {14.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{14.5, 1}, {15., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}},
+        Axes->{False, False},
+        PlotRange->{{0, 41.}, {0, 2}}]}
+     },
+     DefaultBaseStyle->"Column",
+     GridBoxAlignment->{"Columns" -> {{Left}}},
+     GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+    "Column"], ",", 
+   TagBox[GridBox[{
+      {"\<\"Apply rule 1 times\"\>"},
+      {
+       GraphicsBox[{
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{0, 1}, {1.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{1.5, 1}, {2., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{2., 1}, {2.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{2.5, 1}, {3., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{3., 1}, {3.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{3.5, 1}, {4., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{4., 1}, {4.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{4.5, 1}, {5., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{5., 1}, {5.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{5.5, 1}, {6., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{6., 1}, {6.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{6.5, 1}, {7., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{7., 1}, {7.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{7.5, 1}, {8., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{8., 1}, {8.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{8.5, 1}, {9., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{9., 1}, {9.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{9.5, 1}, {10., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{10., 1}, {10.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{10.5, 1}, {11., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{11., 1}, {11.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{11.5, 1}, {12., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{12., 1}, {12.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{12.5, 1}, {13., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{13., 1}, {13.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{13.5, 1}, {14., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{14., 1}, {14.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{14.5, 1}, {15., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{15., 1}, {15.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{15.5, 1}, {17., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}},
+        Axes->{False, False},
+        PlotRange->{{0, 41.}, {0, 2}}]}
+     },
+     DefaultBaseStyle->"Column",
+     GridBoxAlignment->{"Columns" -> {{Left}}},
+     GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+    "Column"], ",", 
+   TagBox[GridBox[{
+      {"\<\"Apply rule 2 times\"\>"},
+      {
+       GraphicsBox[{
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{0, 1}, {0.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{0.5, 1}, {2., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{2., 1}, {2.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{2.5, 1}, {3., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{3., 1}, {3.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{3.5, 1}, {4., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{4., 1}, {4.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{4.5, 1}, {5., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{5., 1}, {5.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{5.5, 1}, {6., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{6., 1}, {6.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{6.5, 1}, {7., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{7., 1}, {7.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{7.5, 1}, {8., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{8., 1}, {8.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{8.5, 1}, {9., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{9., 1}, {9.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{9.5, 1}, {10., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{10., 1}, {10.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{10.5, 1}, {11., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{11., 1}, {11.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{11.5, 1}, {12., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{12., 1}, {12.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{12.5, 1}, {13., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{13., 1}, {13.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{13.5, 1}, {14., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{14., 1}, {14.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{14.5, 1}, {15., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{15., 1}, {16.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{16.5, 1}, {18., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}},
+        Axes->{False, False},
+        PlotRange->{{0, 41.}, {0, 2}}]}
+     },
+     DefaultBaseStyle->"Column",
+     GridBoxAlignment->{"Columns" -> {{Left}}},
+     GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+    "Column"], ",", 
+   TagBox[GridBox[{
+      {"\<\"Apply rule 3 times\"\>"},
+      {
+       GraphicsBox[{
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{0, 1}, {1.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{1.5, 1}, {3., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{3., 1}, {4.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{4.5, 1}, {5., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{5., 1}, {5.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{5.5, 1}, {6., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{6., 1}, {6.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{6.5, 1}, {7., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{7., 1}, {7.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{7.5, 1}, {8., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{8., 1}, {8.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{8.5, 1}, {9., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{9., 1}, {9.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{9.5, 1}, {10., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{10., 1}, {10.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{10.5, 1}, {11., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{11., 1}, {11.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{11.5, 1}, {12., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{12., 1}, {12.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{12.5, 1}, {13., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{13., 1}, {13.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{13.5, 1}, {14., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{14., 1}, {14.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{14.5, 1}, {15., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{15., 1}, {15.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{15.5, 1}, {16., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{16., 1}, {16.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{16.5, 1}, {18., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{18., 1}, {18.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{18.5, 1}, {19., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}},
+        Axes->{False, False},
+        PlotRange->{{0, 41.}, {0, 2}}]}
+     },
+     DefaultBaseStyle->"Column",
+     GridBoxAlignment->{"Columns" -> {{Left}}},
+     GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+    "Column"], ",", 
+   TagBox[GridBox[{
+      {"\<\"Apply rule 29 times\"\>"},
+      {
+       GraphicsBox[{
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{0, 1}, {1.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{1.5, 1}, {2., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{2., 1}, {2.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{2.5, 1}, {3., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{3., 1}, {3.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{3.5, 1}, {4., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{4., 1}, {5.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{5.5, 1}, {6., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{6., 1}, {6.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{6.5, 1}, {7., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{7., 1}, {7.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{7.5, 1}, {8., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{8., 1}, {9.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{9.5, 1}, {10., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{10., 1}, {10.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{10.5, 1}, {11., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{11., 1}, {11.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{11.5, 1}, {12., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{12., 1}, {13.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{13.5, 1}, {14., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{14., 1}, {14.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{14.5, 1}, {15., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{15., 1}, {15.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{15.5, 1}, {16., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{16., 1}, {17.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{17.5, 1}, {18., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{18., 1}, {18.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{18.5, 1}, {19., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{19., 1}, {19.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{19.5, 1}, {20., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}},
+        Axes->{False, False},
+        PlotRange->{{0, 41.}, {0, 2}}]}
+     },
+     DefaultBaseStyle->"Column",
+     GridBoxAlignment->{"Columns" -> {{Left}}},
+     GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+    "Column"], ",", 
+   TagBox[GridBox[{
+      {"\<\"Apply rule 4 times\"\>"},
+      {
+       GraphicsBox[{
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{0, 1}, {0.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{0.5, 1}, {2., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{2., 1}, {2.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{2.5, 1}, {4., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{4., 1}, {4.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{4.5, 1}, {5., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{5., 1}, {5.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{5.5, 1}, {6., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{6., 1}, {6.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{6.5, 1}, {7., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{7., 1}, {7.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{7.5, 1}, {8., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{8., 1}, {8.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{8.5, 1}, {9., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{9., 1}, {9.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{9.5, 1}, {10., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{10., 1}, {10.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{10.5, 1}, {11., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{11., 1}, {11.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{11.5, 1}, {12., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{12., 1}, {12.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{12.5, 1}, {13., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{13., 1}, {13.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{13.5, 1}, {14., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{14., 1}, {14.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{14.5, 1}, {15., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{15., 1}, {16.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{16.5, 1}, {18., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{18., 1}, {19.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{19.5, 1}, {21., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}},
+        Axes->{False, False},
+        PlotRange->{{0, 41.}, {0, 2}}]}
+     },
+     DefaultBaseStyle->"Column",
+     GridBoxAlignment->{"Columns" -> {{Left}}},
+     GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+    "Column"], ",", 
+   TagBox[GridBox[{
+      {"\<\"Apply rule 5 times\"\>"},
+      {
+       GraphicsBox[{
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{0, 1}, {1.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{1.5, 1}, {3., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{3., 1}, {3.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{3.5, 1}, {5., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{5., 1}, {6.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{6.5, 1}, {7., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{7., 1}, {7.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{7.5, 1}, {8., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{8., 1}, {8.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{8.5, 1}, {9., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{9., 1}, {9.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{9.5, 1}, {10., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{10., 1}, {10.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{10.5, 1}, {11., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{11., 1}, {11.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{11.5, 1}, {12., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{12., 1}, {12.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{12.5, 1}, {13., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{13., 1}, {13.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{13.5, 1}, {14., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{14., 1}, {14.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{14.5, 1}, {15., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{15., 1}, {15.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{15.5, 1}, {16., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{16., 1}, {16.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{16.5, 1}, {18., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{18., 1}, {18.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{18.5, 1}, {20., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{20., 1}, {21.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{21.5, 1}, {22., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}},
+        Axes->{False, False},
+        PlotRange->{{0, 41.}, {0, 2}}]}
+     },
+     DefaultBaseStyle->"Column",
+     GridBoxAlignment->{"Columns" -> {{Left}}},
+     GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+    "Column"], ",", 
+   TagBox[GridBox[{
+      {"\<\"Apply rule 576 times\"\>"},
+      {
+       GraphicsBox[{
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{0, 1}, {0.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{0.5, 1}, {1., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{1., 1}, {1.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{1.5, 1}, {2., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{2., 1}, {2.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{2.5, 1}, {3., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{3., 1}, {3.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{3.5, 1}, {5., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{5., 1}, {5.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{5.5, 1}, {7., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{7., 1}, {7.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{7.5, 1}, {8., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{8., 1}, {9.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{9.5, 1}, {10., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{10., 1}, {11.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{11.5, 1}, {13., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{13., 1}, {13.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{13.5, 1}, {14., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{14., 1}, {14.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{14.5, 1}, {15., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{15., 1}, {16.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{16.5, 1}, {17., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{17., 1}, {18.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{18.5, 1}, {19., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{19., 1}, {20.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{20.5, 1}, {21., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{21., 1}, {21.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{21.5, 1}, {22., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{22., 1}, {22.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{22.5, 1}, {23., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}},
+        Axes->{False, False},
+        PlotRange->{{0, 41.}, {0, 2}}]}
+     },
+     DefaultBaseStyle->"Column",
+     GridBoxAlignment->{"Columns" -> {{Left}}},
+     GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+    "Column"], ",", 
+   TagBox[GridBox[{
+      {"\<\"Apply rule 10 times\"\>"},
+      {
+       GraphicsBox[{
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{0, 1}, {0.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{0.5, 1}, {1., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{1., 1}, {1.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{1.5, 1}, {3., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{3., 1}, {3.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{3.5, 1}, {5., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{5., 1}, {5.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{5.5, 1}, {6., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{6., 1}, {6.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{6.5, 1}, {8., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{8., 1}, {8.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{8.5, 1}, {9., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{9., 1}, {9.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{9.5, 1}, {10., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{10., 1}, {10.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{10.5, 1}, {11., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{11., 1}, {11.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{11.5, 1}, {12., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{12., 1}, {12.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{12.5, 1}, {13., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{13., 1}, {14.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{14.5, 1}, {16., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{16., 1}, {16.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{16.5, 1}, {17., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{17., 1}, {18.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{18.5, 1}, {20., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{20., 1}, {21.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{21.5, 1}, {23., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{23., 1}, {23.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{23.5, 1}, {24., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}},
+        Axes->{False, False},
+        PlotRange->{{0, 41.}, {0, 2}}]}
+     },
+     DefaultBaseStyle->"Column",
+     GridBoxAlignment->{"Columns" -> {{Left}}},
+     GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+    "Column"], ",", 
+   TagBox[GridBox[{
+      {"\<\"Apply rule 13 times\"\>"},
+      {
+       GraphicsBox[{
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{0, 1}, {1.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{1.5, 1}, {2., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{2., 1}, {2.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{2.5, 1}, {3., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{3., 1}, {3.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{3.5, 1}, {4., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{4., 1}, {4.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{4.5, 1}, {5., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{5., 1}, {6.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{6.5, 1}, {8., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{8., 1}, {8.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{8.5, 1}, {10., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{10., 1}, {11.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{11.5, 1}, {12., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{12., 1}, {12.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{12.5, 1}, {13., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{13., 1}, {13.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{13.5, 1}, {15., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{15., 1}, {15.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{15.5, 1}, {17., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{17., 1}, {18.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{18.5, 1}, {19., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{19., 1}, {20.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{20.5, 1}, {21., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{21., 1}, {21.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{21.5, 1}, {22., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{22., 1}, {22.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{22.5, 1}, {23., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{23., 1}, {23.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{23.5, 1}, {25., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}},
+        Axes->{False, False},
+        PlotRange->{{0, 41.}, {0, 2}}]}
+     },
+     DefaultBaseStyle->"Column",
+     GridBoxAlignment->{"Columns" -> {{Left}}},
+     GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+    "Column"], ",", 
+   TagBox[GridBox[{
+      {"\<\"Apply rule 44 times\"\>"},
+      {
+       GraphicsBox[{
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{0, 1}, {0.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{0.5, 1}, {2., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{2., 1}, {2.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{2.5, 1}, {3., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{3., 1}, {4.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{4.5, 1}, {5., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{5., 1}, {5.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{5.5, 1}, {7., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{7., 1}, {7.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{7.5, 1}, {8., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{8., 1}, {9.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{9.5, 1}, {10., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{10., 1}, {10.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{10.5, 1}, {12., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{12., 1}, {12.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{12.5, 1}, {13., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{13., 1}, {13.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{13.5, 1}, {14., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{14., 1}, {15.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{15.5, 1}, {17., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{17., 1}, {17.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{17.5, 1}, {18., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{18., 1}, {19.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{19.5, 1}, {21., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{21., 1}, {22.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{22.5, 1}, {23., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{23., 1}, {24.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{24.5, 1}, {25., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{25., 1}, {25.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{25.5, 1}, {26., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}},
+        Axes->{False, False},
+        PlotRange->{{0, 41.}, {0, 2}}]}
+     },
+     DefaultBaseStyle->"Column",
+     GridBoxAlignment->{"Columns" -> {{Left}}},
+     GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+    "Column"], ",", 
+   TagBox[GridBox[{
+      {"\<\"Apply rule 8 times\"\>"},
+      {
+       GraphicsBox[{
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{0, 1}, {0.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{0.5, 1}, {2., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{2., 1}, {2.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{2.5, 1}, {4., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{4., 1}, {4.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{4.5, 1}, {6., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{6., 1}, {6.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{6.5, 1}, {8., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{8., 1}, {8.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{8.5, 1}, {9., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{9., 1}, {9.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{9.5, 1}, {10., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{10., 1}, {10.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{10.5, 1}, {11., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{11., 1}, {11.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{11.5, 1}, {12., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{12., 1}, {12.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{12.5, 1}, {13., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{13., 1}, {13.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{13.5, 1}, {14., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{14., 1}, {14.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{14.5, 1}, {15., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{15., 1}, {16.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{16.5, 1}, {18., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{18., 1}, {19.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{19.5, 1}, {21., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{21., 1}, {22.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{22.5, 1}, {24., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{24., 1}, {25.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{25.5, 1}, {27., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}},
+        Axes->{False, False},
+        PlotRange->{{0, 41.}, {0, 2}}]}
+     },
+     DefaultBaseStyle->"Column",
+     GridBoxAlignment->{"Columns" -> {{Left}}},
+     GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+    "Column"], ",", 
+   TagBox[GridBox[{
+      {"\<\"Apply rule 9 times\"\>"},
+      {
+       GraphicsBox[{
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{0, 1}, {1.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{1.5, 1}, {3., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{3., 1}, {3.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{3.5, 1}, {5., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{5., 1}, {5.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{5.5, 1}, {7., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{7., 1}, {7.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{7.5, 1}, {9., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{9., 1}, {10.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{10.5, 1}, {11., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{11., 1}, {11.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{11.5, 1}, {12., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{12., 1}, {12.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{12.5, 1}, {13., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{13., 1}, {13.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{13.5, 1}, {14., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{14., 1}, {14.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{14.5, 1}, {15., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{15., 1}, {15.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{15.5, 1}, {16., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{16., 1}, {16.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{16.5, 1}, {18., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{18., 1}, {18.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{18.5, 1}, {20., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{20., 1}, {21.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{21.5, 1}, {23., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{23., 1}, {24.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{24.5, 1}, {26., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{26., 1}, {27.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{27.5, 1}, {28., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}},
+        Axes->{False, False},
+        PlotRange->{{0, 41.}, {0, 2}}]}
+     },
+     DefaultBaseStyle->"Column",
+     GridBoxAlignment->{"Columns" -> {{Left}}},
+     GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+    "Column"], ",", 
+   TagBox[GridBox[{
+      {"\<\"Apply rule 15 times\"\>"},
+      {
+       GraphicsBox[{
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{0, 1}, {1.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{1.5, 1}, {3., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{3., 1}, {4.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{4.5, 1}, {5., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{5., 1}, {5.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{5.5, 1}, {6., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{6., 1}, {7.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{7.5, 1}, {9., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{9., 1}, {10.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{10.5, 1}, {11., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{11., 1}, {11.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{11.5, 1}, {12., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{12., 1}, {13.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{13.5, 1}, {15., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{15., 1}, {16.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{16.5, 1}, {18., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{18., 1}, {18.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{18.5, 1}, {19., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{19., 1}, {20.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{20.5, 1}, {21., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{21., 1}, {21.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{21.5, 1}, {23., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{23., 1}, {23.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{23.5, 1}, {24., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{24., 1}, {25.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{25.5, 1}, {26., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{26., 1}, {26.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{26.5, 1}, {28., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{28., 1}, {28.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{28.5, 1}, {29., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}},
+        Axes->{False, False},
+        PlotRange->{{0, 41.}, {0, 2}}]}
+     },
+     DefaultBaseStyle->"Column",
+     GridBoxAlignment->{"Columns" -> {{Left}}},
+     GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+    "Column"], ",", 
+   TagBox[GridBox[{
+      {"\<\"Apply rule 11 times\"\>"},
+      {
+       GraphicsBox[{
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{0, 1}, {1.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{1.5, 1}, {2., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{2., 1}, {3.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{3.5, 1}, {5., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{5., 1}, {5.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{5.5, 1}, {7., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{7., 1}, {8.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{8.5, 1}, {9., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{9., 1}, {10.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{10.5, 1}, {12., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{12., 1}, {13.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{13.5, 1}, {14., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{14., 1}, {14.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{14.5, 1}, {15., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{15., 1}, {15.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{15.5, 1}, {16., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{16., 1}, {16.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{16.5, 1}, {17., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{17., 1}, {17.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{17.5, 1}, {19., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{19., 1}, {19.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{19.5, 1}, {20., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{20., 1}, {21.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{21.5, 1}, {23., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{23., 1}, {23.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{23.5, 1}, {25., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{25., 1}, {26.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{26.5, 1}, {27., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{27., 1}, {28.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{28.5, 1}, {30., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}},
+        Axes->{False, False},
+        PlotRange->{{0, 41.}, {0, 2}}]}
+     },
+     DefaultBaseStyle->"Column",
+     GridBoxAlignment->{"Columns" -> {{Left}}},
+     GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+    "Column"], ",", 
+   TagBox[GridBox[{
+      {"\<\"Apply rule 25 times\"\>"},
+      {
+       GraphicsBox[{
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{0, 1}, {1.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{1.5, 1}, {2., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{2., 1}, {2.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{2.5, 1}, {3., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{3., 1}, {3.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{3.5, 1}, {5., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{5., 1}, {5.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{5.5, 1}, {7., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{7., 1}, {8.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{8.5, 1}, {10., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{10., 1}, {11.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{11.5, 1}, {13., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{13., 1}, {14.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{14.5, 1}, {15., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{15., 1}, {16.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{16.5, 1}, {17., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{17., 1}, {18.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{18.5, 1}, {20., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{20., 1}, {20.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{20.5, 1}, {22., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{22., 1}, {22.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{22.5, 1}, {24., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{24., 1}, {24.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{24.5, 1}, {26., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{26., 1}, {27.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{27.5, 1}, {28., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{28., 1}, {28.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{28.5, 1}, {29., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{29., 1}, {29.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{29.5, 1}, {31., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}},
+        Axes->{False, False},
+        PlotRange->{{0, 41.}, {0, 2}}]}
+     },
+     DefaultBaseStyle->"Column",
+     GridBoxAlignment->{"Columns" -> {{Left}}},
+     GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+    "Column"], ",", 
+   TagBox[GridBox[{
+      {"\<\"Apply rule 18 times\"\>"},
+      {
+       GraphicsBox[{
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{0, 1}, {0.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{0.5, 1}, {1., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{1., 1}, {1.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{1.5, 1}, {3., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{3., 1}, {3.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{3.5, 1}, {5., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{5., 1}, {5.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{5.5, 1}, {7., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{7., 1}, {7.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{7.5, 1}, {9., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{9., 1}, {9.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{9.5, 1}, {11., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{11., 1}, {12.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{12.5, 1}, {13., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{13., 1}, {13.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{13.5, 1}, {14., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{14., 1}, {15.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{15.5, 1}, {16., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{16., 1}, {17.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{17.5, 1}, {19., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{19., 1}, {20.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{20.5, 1}, {22., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{22., 1}, {23.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{23.5, 1}, {25., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{25., 1}, {26.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{26.5, 1}, {28., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{28., 1}, {29.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{29.5, 1}, {31., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{31., 1}, {31.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{31.5, 1}, {32., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}},
+        Axes->{False, False},
+        PlotRange->{{0, 41.}, {0, 2}}]}
+     },
+     DefaultBaseStyle->"Column",
+     GridBoxAlignment->{"Columns" -> {{Left}}},
+     GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+    "Column"], ",", 
+   TagBox[GridBox[{
+      {"\<\"Apply rule 33 times\"\>"},
+      {
+       GraphicsBox[{
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{0, 1}, {1.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{1.5, 1}, {3., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{3., 1}, {4.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{4.5, 1}, {6., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{6., 1}, {7.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{7.5, 1}, {8., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{8., 1}, {9.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{9.5, 1}, {10., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{10., 1}, {11.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{11.5, 1}, {12., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{12., 1}, {13.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{13.5, 1}, {14., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{14., 1}, {15.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{15.5, 1}, {16., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{16., 1}, {17.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{17.5, 1}, {18., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{18., 1}, {19.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{19.5, 1}, {20., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{20., 1}, {21.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{21.5, 1}, {22., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{22., 1}, {23.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{23.5, 1}, {24., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{24., 1}, {25.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{25.5, 1}, {26., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{26., 1}, {27.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{27.5, 1}, {28., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{28., 1}, {29.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{29.5, 1}, {31., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{31., 1}, {31.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{31.5, 1}, {33., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}},
+        Axes->{False, False},
+        PlotRange->{{0, 41.}, {0, 2}}]}
+     },
+     DefaultBaseStyle->"Column",
+     GridBoxAlignment->{"Columns" -> {{Left}}},
+     GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+    "Column"], ",", 
+   TagBox[GridBox[{
+      {"\<\"Apply rule 17 times\"\>"},
+      {
+       GraphicsBox[{
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{0, 1}, {1.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{1.5, 1}, {3., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{3., 1}, {3.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{3.5, 1}, {5., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{5., 1}, {5.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{5.5, 1}, {7., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{7., 1}, {7.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{7.5, 1}, {9., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{9., 1}, {9.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{9.5, 1}, {11., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{11., 1}, {11.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{11.5, 1}, {13., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{13., 1}, {13.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{13.5, 1}, {14., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{14., 1}, {14.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{14.5, 1}, {15., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{15., 1}, {15.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{15.5, 1}, {17., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{17., 1}, {18.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{18.5, 1}, {20., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{20., 1}, {21.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{21.5, 1}, {23., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{23., 1}, {24.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{24.5, 1}, {26., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{26., 1}, {27.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{27.5, 1}, {29., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{29., 1}, {30.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{30.5, 1}, {32., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{32., 1}, {33.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{33.5, 1}, {34., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}},
+        Axes->{False, False},
+        PlotRange->{{0, 41.}, {0, 2}}]}
+     },
+     DefaultBaseStyle->"Column",
+     GridBoxAlignment->{"Columns" -> {{Left}}},
+     GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+    "Column"], ",", 
+   TagBox[GridBox[{
+      {"\<\"Apply rule 27 times\"\>"},
+      {
+       GraphicsBox[{
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{0, 1}, {1.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{1.5, 1}, {3., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{3., 1}, {4.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{4.5, 1}, {6., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{6., 1}, {6.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{6.5, 1}, {7., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{7., 1}, {8.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{8.5, 1}, {10., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{10., 1}, {10.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{10.5, 1}, {12., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{12., 1}, {13.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{13.5, 1}, {14., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{14., 1}, {15.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{15.5, 1}, {17., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{17., 1}, {18.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{18.5, 1}, {20., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{20., 1}, {20.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{20.5, 1}, {21., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{21., 1}, {22.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{22.5, 1}, {24., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{24., 1}, {24.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{24.5, 1}, {26., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{26., 1}, {27.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{27.5, 1}, {28., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{28., 1}, {29.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{29.5, 1}, {31., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{31., 1}, {32.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{32.5, 1}, {34., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{34., 1}, {34.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{34.5, 1}, {35., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}},
+        Axes->{False, False},
+        PlotRange->{{0, 41.}, {0, 2}}]}
+     },
+     DefaultBaseStyle->"Column",
+     GridBoxAlignment->{"Columns" -> {{Left}}},
+     GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+    "Column"], ",", 
+   TagBox[GridBox[{
+      {"\<\"Apply rule 47 times\"\>"},
+      {
+       GraphicsBox[{
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{0, 1}, {1.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{1.5, 1}, {2., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{2., 1}, {3.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{3.5, 1}, {5., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{5., 1}, {6.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{6.5, 1}, {8., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{8., 1}, {9.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{9.5, 1}, {11., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{11., 1}, {12.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{12.5, 1}, {14., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{14., 1}, {15.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{15.5, 1}, {17., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{17., 1}, {18.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{18.5, 1}, {19., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{19., 1}, {19.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{19.5, 1}, {20., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{20., 1}, {21.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{21.5, 1}, {23., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{23., 1}, {24.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{24.5, 1}, {25., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{25., 1}, {26.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{26.5, 1}, {27., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{27., 1}, {28.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{28.5, 1}, {29., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{29., 1}, {30.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{30.5, 1}, {31., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{31., 1}, {32.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{32.5, 1}, {33., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{33., 1}, {34.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{34.5, 1}, {36., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}},
+        Axes->{False, False},
+        PlotRange->{{0, 41.}, {0, 2}}]}
+     },
+     DefaultBaseStyle->"Column",
+     GridBoxAlignment->{"Columns" -> {{Left}}},
+     GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+    "Column"], ",", 
+   TagBox[GridBox[{
+      {"\<\"Apply rule 16 times\"\>"},
+      {
+       GraphicsBox[{
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{0, 1}, {0.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{0.5, 1}, {2., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{2., 1}, {2.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{2.5, 1}, {4., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{4., 1}, {4.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{4.5, 1}, {6., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{6., 1}, {6.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{6.5, 1}, {8., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{8., 1}, {8.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{8.5, 1}, {10., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{10., 1}, {10.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{10.5, 1}, {12., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{12., 1}, {12.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{12.5, 1}, {14., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{14., 1}, {15.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{15.5, 1}, {16., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{16., 1}, {17.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{17.5, 1}, {19., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{19., 1}, {20.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{20.5, 1}, {22., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{22., 1}, {23.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{23.5, 1}, {25., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{25., 1}, {26.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{26.5, 1}, {28., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{28., 1}, {29.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{29.5, 1}, {31., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{31., 1}, {32.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{32.5, 1}, {34., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{34., 1}, {35.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{35.5, 1}, {37., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}},
+        Axes->{False, False},
+        PlotRange->{{0, 41.}, {0, 2}}]}
+     },
+     DefaultBaseStyle->"Column",
+     GridBoxAlignment->{"Columns" -> {{Left}}},
+     GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+    "Column"], ",", 
+   TagBox[GridBox[{
+      {"\<\"Apply rule 65 times\"\>"},
+      {
+       GraphicsBox[{
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{0, 1}, {1.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{1.5, 1}, {3., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{3., 1}, {3.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{3.5, 1}, {5., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{5., 1}, {5.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{5.5, 1}, {6., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{6., 1}, {7.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{7.5, 1}, {9., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{9., 1}, {10.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{10.5, 1}, {12., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{12., 1}, {13.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{13.5, 1}, {15., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{15., 1}, {16.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{16.5, 1}, {18., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{18., 1}, {19.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{19.5, 1}, {21., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{21., 1}, {22.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{22.5, 1}, {24., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{24., 1}, {25.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{25.5, 1}, {27., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{27., 1}, {28.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{28.5, 1}, {30., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{30., 1}, {31.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{31.5, 1}, {33., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{33., 1}, {33.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{33.5, 1}, {35., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{35., 1}, {35.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{35.5, 1}, {36., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{36., 1}, {36.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{36.5, 1}, {38., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}},
+        Axes->{False, False},
+        PlotRange->{{0, 41.}, {0, 2}}]}
+     },
+     DefaultBaseStyle->"Column",
+     GridBoxAlignment->{"Columns" -> {{Left}}},
+     GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+    "Column"], ",", 
+   TagBox[GridBox[{
+      {"\<\"Apply rule 215 times\"\>"},
+      {
+       GraphicsBox[{
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{0, 1}, {1.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{1.5, 1}, {2., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{2., 1}, {3.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{3.5, 1}, {5., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{5., 1}, {6.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{6.5, 1}, {8., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{8., 1}, {9.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{9.5, 1}, {11., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{11., 1}, {12.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{12.5, 1}, {14., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{14., 1}, {15.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{15.5, 1}, {17., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{17., 1}, {18.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{18.5, 1}, {20., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{20., 1}, {21.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{21.5, 1}, {22., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{22., 1}, {23.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{23.5, 1}, {24., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{24., 1}, {25.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{25.5, 1}, {26., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{26., 1}, {27.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{27.5, 1}, {29., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{29., 1}, {30.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{30.5, 1}, {32., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{32., 1}, {33.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{33.5, 1}, {34., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{34., 1}, {34.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{34.5, 1}, {36., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{36., 1}, {37.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{37.5, 1}, {39., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}},
+        Axes->{False, False},
+        PlotRange->{{0, 41.}, {0, 2}}]}
+     },
+     DefaultBaseStyle->"Column",
+     GridBoxAlignment->{"Columns" -> {{Left}}},
+     GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+    "Column"], ",", 
+   TagBox[GridBox[{
+      {"\<\"Apply rule 63 times\"\>"},
+      {
+       GraphicsBox[{
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{0, 1}, {1.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{1.5, 1}, {2., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{2., 1}, {2.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{2.5, 1}, {3., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{3., 1}, {4.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{4.5, 1}, {6., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{6., 1}, {7.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{7.5, 1}, {9., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{9., 1}, {10.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{10.5, 1}, {12., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{12., 1}, {13.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{13.5, 1}, {15., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{15., 1}, {16.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{16.5, 1}, {18., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{18., 1}, {19.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{19.5, 1}, {21., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{21., 1}, {22.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{22.5, 1}, {24., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{24., 1}, {25.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{25.5, 1}, {27., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{27., 1}, {28.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{28.5, 1}, {30., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{30., 1}, {31.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{31.5, 1}, {33., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{33., 1}, {34.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{34.5, 1}, {36., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{36., 1}, {36.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{36.5, 1}, {38., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{38., 1}, {39.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{39.5, 1}, {40., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}},
+        Axes->{False, False},
+        PlotRange->{{0, 41.}, {0, 2}}]}
+     },
+     DefaultBaseStyle->"Column",
+     GridBoxAlignment->{"Columns" -> {{Left}}},
+     GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+    "Column"], ",", 
+   TagBox[GridBox[{
+      {"\<\"Apply rule 1885 times\"\>"},
+      {
+       GraphicsBox[{
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{0, 1}, {1.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{1.5, 1}, {3., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{3., 1}, {4.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{4.5, 1}, {6., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{6., 1}, {7.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{7.5, 1}, {9., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], LineBox[{{9., 1}, {10.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{10.5, 1}, {12., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{12., 1}, {12.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{12.5, 1}, {14., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{14., 1}, {15.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{15.5, 1}, {17., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{17., 1}, {18.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{18.5, 1}, {20., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{20., 1}, {20.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{20.5, 1}, {22., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{22., 1}, {23.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{23.5, 1}, {25., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{25., 1}, {26.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{26.5, 1}, {28., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{28., 1}, {28.5, 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{28.5, 1}, {30., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{30., 1}, {31.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{31.5, 1}, {33., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{33., 1}, {34.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{34.5, 1}, {36., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{36., 1}, {37.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{37.5, 1}, {39., 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{39., 1}, {40.5, 1}},
+           VertexColors->{
+             RGBColor[0, 1, 0], 
+             GrayLevel[0]}]}, 
+         {AbsoluteThickness[50], CapForm["Butt"], 
+          LineBox[{{40.5, 1}, {41., 1}},
+           VertexColors->{
+             RGBColor[1, 0, 0], 
+             GrayLevel[0]}]}},
+        Axes->{False, False},
+        PlotRange->{{0, 41.}, {0, 2}}]}
+     },
+     DefaultBaseStyle->"Column",
+     GridBoxAlignment->{"Columns" -> {{Left}}},
+     GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+    "Column"]}], "}"}]], "Output",
+ CellChangeTimes->{
+  3.8036497773810587`*^9, 3.803649836887484*^9, 3.803649877531114*^9, {
+   3.8036501771062384`*^9, 3.803650206123308*^9}, {3.8036502636711984`*^9, 
+   3.8036502706470737`*^9}},
+ CellLabel->"Out[69]=",ExpressionUUID->"e9dcba29-d090-4414-b004-a7f7346471de"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Export", "[", 
+  RowBox[{
+  "\"\<C:\\\\Users\\\\douwm\\\\repos\\\\wolfram_summer_school\\\\videos\\\\\
+1Dextend.gif\>\"", ",", "t"}], "]"}]], "Input",
+ CellChangeTimes->{{3.803649932422718*^9, 3.803649964810105*^9}},
+ CellLabel->"In[65]:=",ExpressionUUID->"9187677b-6cbc-4c9b-94cf-d62ad309069b"],
+
+Cell[BoxData["\<\"C:\\\\Users\\\\douwm\\\\repos\\\\wolfram_summer_school\\\\\
+videos\\\\1Dextend.gif\"\>"], "Output",
+ CellChangeTimes->{3.8036499988113675`*^9},
+ CellLabel->"Out[65]=",ExpressionUUID->"9181d663-e55a-4a8b-a635-7a36b66b83ce"]
+}, Open  ]]
 }, Open  ]]
 }, Open  ]]
 },
-WindowSize->{958, 988},
-WindowMargins->{{-7, Automatic}, {Automatic, 0}},
+WindowSize->{958, 981},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
 Magnification:>1.2 Inherited,
 FrontEndVersion->"12.1 for Microsoft Windows (64-bit) (March 20, 2020)",
 StyleDefinitions->"Default.nb",
@@ -1496,68 +5432,77 @@ CellTagsIndex->{}
 *)
 (*NotebookFileOutline
 Notebook[{
-Cell[561, 20, 351, 7, 35, "Input",ExpressionUUID->"7e71ce30-a3fe-4571-ab29-e0201020e8a2"],
-Cell[915, 29, 197, 4, 60, "Input",ExpressionUUID->"3c32eeed-e9e2-4924-8719-96461fd7a38f"],
-Cell[1115, 35, 3289, 87, 300, "Input",ExpressionUUID->"9529e133-ccec-475c-8913-702e4117e40d"],
+Cell[561, 20, 347, 6, 35, "Input",ExpressionUUID->"7e71ce30-a3fe-4571-ab29-e0201020e8a2"],
+Cell[911, 28, 197, 4, 60, "Input",ExpressionUUID->"3c32eeed-e9e2-4924-8719-96461fd7a38f"],
+Cell[1111, 34, 3284, 86, 300, "Input",ExpressionUUID->"9529e133-ccec-475c-8913-702e4117e40d"],
 Cell[CellGroupData[{
-Cell[4429, 126, 191, 3, 98, "Subsection",ExpressionUUID->"3ee1f216-2deb-4e90-808f-fb5fa8c04a8c"],
+Cell[4420, 124, 191, 3, 98, "Subsection",ExpressionUUID->"3ee1f216-2deb-4e90-808f-fb5fa8c04a8c"],
 Cell[CellGroupData[{
-Cell[4645, 133, 326, 8, 35, "Input",ExpressionUUID->"43349dfd-b2e3-4c9b-afe9-fd070ed6b685"],
-Cell[4974, 143, 1105, 26, 314, "Output",ExpressionUUID->"f95fd1c1-fbfe-47df-b870-eadf93c97061"]
+Cell[4636, 131, 321, 7, 35, "Input",ExpressionUUID->"43349dfd-b2e3-4c9b-afe9-fd070ed6b685"],
+Cell[4960, 140, 1124, 25, 314, "Output",ExpressionUUID->"5daf20ca-d644-4c27-8e31-16ab03feb772"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[6116, 174, 250, 5, 53, "Subsubsection",ExpressionUUID->"92c96915-13c3-4c10-9539-667a97abc958"],
+Cell[6121, 170, 250, 5, 53, "Subsubsection",ExpressionUUID->"92c96915-13c3-4c10-9539-667a97abc958"],
 Cell[CellGroupData[{
-Cell[6391, 183, 339, 7, 35, "Input",ExpressionUUID->"09a0a93b-4d52-4681-9d87-e61927beab45"],
-Cell[6733, 192, 39497, 669, 289, "Output",ExpressionUUID->"540bb899-c00c-4b4b-8986-1faad219e95b"]
+Cell[6396, 179, 334, 6, 35, "Input",ExpressionUUID->"09a0a93b-4d52-4681-9d87-e61927beab45"],
+Cell[6733, 187, 39514, 668, 289, "Output",ExpressionUUID->"2e333bd0-4d38-46ae-baa3-57e1d9350d76"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[46267, 866, 269, 5, 35, "Input",ExpressionUUID->"0b498a4a-b754-45c7-ad6f-732723c6aab7"],
-Cell[46539, 873, 205, 4, 39, "Output",ExpressionUUID->"c3b90233-6c5d-4bcd-b2aa-905c0abcf4f6"]
+Cell[46284, 860, 269, 5, 35, "Input",ExpressionUUID->"0b498a4a-b754-45c7-ad6f-732723c6aab7"],
+Cell[46556, 867, 205, 4, 39, "Output",ExpressionUUID->"c3b90233-6c5d-4bcd-b2aa-905c0abcf4f6"]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[46793, 883, 271, 6, 84, "Subsubsection",ExpressionUUID->"f961fac3-99e3-4963-894a-4b258ce18ca3"],
+Cell[46810, 877, 271, 6, 84, "Subsubsection",ExpressionUUID->"f961fac3-99e3-4963-894a-4b258ce18ca3"],
 Cell[CellGroupData[{
-Cell[47089, 893, 222, 4, 35, "Input",ExpressionUUID->"56210e29-f36d-4c09-8b72-bb5712c789dc"],
-Cell[47314, 899, 2729, 53, 282, "Output",ExpressionUUID->"5eb600a4-e2c2-4ebf-9d78-e4711161ed6c"]
+Cell[47106, 887, 222, 4, 35, "Input",ExpressionUUID->"56210e29-f36d-4c09-8b72-bb5712c789dc"],
+Cell[47331, 893, 2729, 53, 282, "Output",ExpressionUUID->"5eb600a4-e2c2-4ebf-9d78-e4711161ed6c"]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[50092, 958, 254, 4, 53, "Subsubsection",ExpressionUUID->"3865c5ef-e71c-4c2a-8744-6ae069eff8a3"],
-Cell[50349, 964, 3018, 63, 252, "Input",ExpressionUUID->"70b4d9f7-61f2-4f16-a020-d1494944464e"],
+Cell[50109, 952, 254, 4, 53, "Subsubsection",ExpressionUUID->"3865c5ef-e71c-4c2a-8744-6ae069eff8a3"],
+Cell[50366, 958, 3064, 63, 279, "Input",ExpressionUUID->"70b4d9f7-61f2-4f16-a020-d1494944464e"],
 Cell[CellGroupData[{
-Cell[53392, 1031, 990, 21, 84, "Input",ExpressionUUID->"766e4310-60da-494a-b058-9541b77e662c"],
-Cell[54385, 1054, 626, 12, 27, "Print",ExpressionUUID->"40a4acc9-e41a-4aeb-abba-c4b746aa1b60"],
-Cell[55014, 1068, 4847, 129, 60, "Output",ExpressionUUID->"21f88030-9ce4-4a2c-b0cd-9a5faa7ed589"]
+Cell[53455, 1025, 985, 20, 84, "Input",ExpressionUUID->"766e4310-60da-494a-b058-9541b77e662c"],
+Cell[54443, 1047, 646, 12, 27, "Print",ExpressionUUID->"03bdf1ab-7fd1-4991-bc82-eebf4401b379"],
+Cell[55092, 1061, 4870, 128, 60, "Output",ExpressionUUID->"e8ec71c5-b56a-42ed-8bd0-98c3fb5a5120"]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[59910, 1203, 295, 4, 53, "Subsubsection",ExpressionUUID->"da982741-ac25-4774-8e6e-e2e2813c4860"],
+Cell[60011, 1195, 295, 4, 53, "Subsubsection",ExpressionUUID->"da982741-ac25-4774-8e6e-e2e2813c4860"],
 Cell[CellGroupData[{
-Cell[60230, 1211, 767, 18, 60, "Input",ExpressionUUID->"584de9ca-dda3-4a85-a4f3-137dd8102340"],
-Cell[61000, 1231, 1905, 39, 163, "Output",ExpressionUUID->"1280d3bd-532f-46cf-a7f7-9bdfdfbffa47"],
-Cell[62908, 1272, 331, 7, 27, "Message",ExpressionUUID->"2be4c565-562c-4998-a76a-347e61765571"],
-Cell[63242, 1281, 332, 7, 27, "Message",ExpressionUUID->"f77b641c-fb0f-4072-a6e1-1d71bbba699a"],
-Cell[63577, 1290, 332, 7, 27, "Message",ExpressionUUID->"a10cdab6-2a6f-4df0-8a75-d75635cb90eb"]
+Cell[60331, 1203, 767, 18, 60, "Input",ExpressionUUID->"584de9ca-dda3-4a85-a4f3-137dd8102340"],
+Cell[61101, 1223, 1905, 39, 163, "Output",ExpressionUUID->"1280d3bd-532f-46cf-a7f7-9bdfdfbffa47"],
+Cell[63009, 1264, 331, 7, 27, "Message",ExpressionUUID->"2be4c565-562c-4998-a76a-347e61765571"],
+Cell[63343, 1273, 332, 7, 27, "Message",ExpressionUUID->"f77b641c-fb0f-4072-a6e1-1d71bbba699a"],
+Cell[63678, 1282, 332, 7, 27, "Message",ExpressionUUID->"a10cdab6-2a6f-4df0-8a75-d75635cb90eb"],
+Cell[64013, 1291, 333, 7, 27, "Message",ExpressionUUID->"5dafce48-5328-4f89-a010-b1ba5bc4f597"]
 }, Open  ]],
-Cell[63924, 1300, 131, 3, 35, "Input",ExpressionUUID->"af8812d1-b136-49bd-89fa-b8b3a15ec545"]
+Cell[64361, 1301, 131, 3, 35, "Input",ExpressionUUID->"af8812d1-b136-49bd-89fa-b8b3a15ec545"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[64092, 1308, 310, 5, 53, "Subsubsection",ExpressionUUID->"86dbc9e8-ef8e-4c8d-bcfe-2ec86c77b9bd"],
+Cell[64529, 1309, 310, 5, 53, "Subsubsection",ExpressionUUID->"86dbc9e8-ef8e-4c8d-bcfe-2ec86c77b9bd"],
 Cell[CellGroupData[{
-Cell[64427, 1317, 1287, 26, 84, "Input",ExpressionUUID->"136aa5b2-9474-48ac-9065-66687ad48122"],
-Cell[65717, 1345, 1536, 34, 88, "Output",ExpressionUUID->"aecae87a-f50e-442f-87eb-6d9321889aaa"]
+Cell[64864, 1318, 1282, 25, 84, "Input",ExpressionUUID->"136aa5b2-9474-48ac-9065-66687ad48122"],
+Cell[66149, 1345, 1553, 33, 88, "Output",ExpressionUUID->"5f285d02-4578-4a24-a4e6-425894528621"]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[67302, 1385, 255, 4, 53, "Subsubsection",ExpressionUUID->"d93df3d7-51ae-48fc-84f0-67bcb560d23d"],
-Cell[67560, 1391, 175, 3, 35, "Input",ExpressionUUID->"8a6ed68f-f9c0-4ebe-9024-06e5eec7eb74"],
+Cell[67751, 1384, 255, 4, 53, "Subsubsection",ExpressionUUID->"d93df3d7-51ae-48fc-84f0-67bcb560d23d"],
+Cell[68009, 1390, 175, 3, 35, "Input",ExpressionUUID->"8a6ed68f-f9c0-4ebe-9024-06e5eec7eb74"],
 Cell[CellGroupData[{
-Cell[67760, 1398, 827, 20, 108, "Input",ExpressionUUID->"389f7854-4f6f-4db2-aade-284fdd2824a6"],
-Cell[68590, 1420, 2577, 49, 147, "Output",ExpressionUUID->"1924140a-f997-490c-9a9e-e52b1cab628c"]
+Cell[68209, 1397, 827, 20, 108, "Input",ExpressionUUID->"389f7854-4f6f-4db2-aade-284fdd2824a6"],
+Cell[69039, 1419, 2577, 49, 147, "Output",ExpressionUUID->"1924140a-f997-490c-9a9e-e52b1cab628c"]
 }, Open  ]],
-Cell[71182, 1472, 204, 4, 35, "Input",ExpressionUUID->"1e960099-ab67-472a-98d6-d0e00fa6e946"]
+Cell[71631, 1471, 204, 4, 35, "Input",ExpressionUUID->"1e960099-ab67-472a-98d6-d0e00fa6e946"],
+Cell[CellGroupData[{
+Cell[71860, 1479, 991, 23, 108, "Input",ExpressionUUID->"da512bea-4e7c-44da-bdba-cc2b9c6fba22"],
+Cell[72854, 1504, 148135, 3891, 419, "Output",ExpressionUUID->"e9dcba29-d090-4414-b004-a7f7346471de"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[221026, 5400, 319, 6, 60, "Input",ExpressionUUID->"9187677b-6cbc-4c9b-94cf-d62ad309069b"],
+Cell[221348, 5408, 240, 3, 39, "Output",ExpressionUUID->"9181d663-e55a-4a8b-a635-7a36b66b83ce"]
+}, Open  ]]
 }, Open  ]]
 }, Open  ]]
 }
